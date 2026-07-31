@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from langchain_community.document_loaders import WebBaseLoader
 import random
 
-WHO_LICENSE = "CC BY-NC-SA 3.0 IGO"
+# WHO_LICENSE = "CC BY-NC-SA 3.0 IGO"
 DEFAULT_HEADERS = {
     "User-Agent": "clinical-rag-portfolio-project/1.0 (personal, non-commercial use)"
 }
@@ -62,6 +62,7 @@ def load_who_fact_sheets(
     headers: dict = None,
     manifest_path: str = "../../data/who/manifest.json",
     num_pages: int = None,
+    license: str = "unknown",
 ) -> tuple[list, list[dict]]:
     """Scrapes the WHO fact-sheets index for links to individual fact
     sheets, loads each one via LangChain, and builds a manifest.json.
@@ -121,7 +122,7 @@ def load_who_fact_sheets(
  
         entry = {
             "published_date": additional_meta["published_date"],
-            "license":        WHO_LICENSE,
+            "license":        license,
         }
 
         additional_meta_list.append(entry)
