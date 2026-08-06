@@ -93,16 +93,13 @@ Grounded Answer + Citation
 
 ## Data Sources
 The Clinical RAG Assistant retrieves information from multiple authoritative World Health Organization (WHO) resources:
-1. WHO Fact Sheets 
-    Format: HTML
+1. WHO Fact Sheets | Format: HTML
 
     Public health summaries covering diseases, conditions, risk factors, and global health topics. These are ingested directly from the WHO website using LangChain's `WebBaseLoader`.
-2. WHO Drug Information 2026 Issues 
-    Format: PDF
+2. WHO Drug Information 2026 Issues | Format: PDF
     
     Quarterly publications containing guidance on medicine regulation, pharmacovigilance, bioequivalence, pharmaceutical quality, and regulatory science.
-3. WHO Weekly Epidemiological Record (WER) 
-    Format: PDF 
+3. WHO Weekly Epidemiological Record (WER) | Format: PDF 
 
 
 ## Document Ingestion
