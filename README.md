@@ -40,7 +40,7 @@ clinical-rag-assistant/
 │   ├── processed/           # Cleaned / intermediate data
 │   └── vectorstore/         # Vector database files
 │
-├── src/
+├── app/
 │   ├── loader.py            # PDF ingestion (1 Document per page)
 │   ├── parser.py            # Cleaning and chunking logic
 │   ├── embeddings.py        # Embedding generation
@@ -95,9 +95,11 @@ Grounded Answer + Citation
 The Clinical RAG Assistant retrieves information from multiple authoritative World Health Organization (WHO) resources:
 1. WHO Fact Sheets 
     Format: HTML
+
     Public health summaries covering diseases, conditions, risk factors, and global health topics. These are ingested directly from the WHO website using LangChain's `WebBaseLoader`.
 2. WHO Drug Information 2026 Issues 
     Format: PDF
+    
     Quarterly publications containing guidance on medicine regulation, pharmacovigilance, bioequivalence, pharmaceutical quality, and regulatory science.
 3. WHO Weekly Epidemiological Record (WER) 
     Format: PDF 
@@ -143,7 +145,7 @@ https://docs.astral.sh/uv/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/clinical-rag-assistant.git
+git clone https://github.com/suzzyzhen/clinical-rag-assistant.git
 
 cd clinical-rag-assistant
 ```
@@ -190,21 +192,6 @@ data/who/
 ├── WER-101-25-eng.pdf
 ├── WHO_drug_2026_1.pdf
 ```
-
-Load documents:
-
-```python
-from src.loader import load_pdfs_from_folder
-from src.schema import DocType
-
-documents = load_pdfs_from_folder(
-    folder="data/raw",
-    source_name="NICE",
-    doc_type=DocType.GUIDELINE
-)
-```
-
-The loader returns a list of LangChain `Document` objects, one for each page.
 
 ---
 
