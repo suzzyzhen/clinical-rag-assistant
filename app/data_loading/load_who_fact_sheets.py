@@ -74,9 +74,8 @@ def load_who_fact_sheets(
     """
     headers = headers or DEFAULT_HEADERS
 
-    # ------------------------------------------------------------------ #
-    # Find fact-sheet URLs from the index page                           #
-    # ------------------------------------------------------------------ #
+    ################## Find fact-sheet URLs from the index page ################## 
+
     print(f"Fetching index page: {source_url}")
     response = requests.get(source_url, headers=headers)
     response.raise_for_status()
@@ -101,18 +100,16 @@ def load_who_fact_sheets(
         print("No matching fact sheet links found.")
         return [], []
 
-    # ------------------------------------------------------------------ #
-    #          load full page content via LangChain                      #
-    # ------------------------------------------------------------------ #
+    ################## load full page content via LangChain ##################
+
     print("Loading fact sheets via LangChain...")
     loader = WebBaseLoader(web_paths=urls_to_load, requests_kwargs={"headers": headers})
     docs = loader.load()
     print(f"Loaded {len(docs)} documents.")
 
 
-    # ------------------------------------------------------------------ #
-    #            write manifest.json                                     #
-    # ------------------------------------------------------------------ #
+    ################## write manifest.json ##################
+
     additional_meta_list = []
     for doc in docs:
         item_url = doc.metadata.get("source", "")
