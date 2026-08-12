@@ -140,6 +140,8 @@ def _extract_metadata(item: dict) -> dict:
     return {
         "title":          first_value("dc.title"),
         "published_date": first_value("dc.date.issued"),
+        "description":  first_value("dc.description.abstract"),
+        "language":       first_value("dc.language.iso"),
         "handle":         obj.get("handle"),
     }
 
@@ -199,6 +201,8 @@ def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, o
             "item_url":       item_url,
             "pdf_url":        pdf_url,
             "published_date": meta.get("published_date"),
+            "description":    meta.get("description"),
+            "language":       meta.get("language"),
             "local_path":     None,
             "license":        WHO_LICENSE,
         }
@@ -223,8 +227,9 @@ def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, o
         if i < len(all_items):
             time.sleep(REQUEST_DELAY_SECONDS)
 
-    manifest_path = out_path / "manifest_wer.json"
+    manifest_path = out_path / "manifest_iris.json"
     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\nManifest written to {manifest_path}")
 
     return manifest
+

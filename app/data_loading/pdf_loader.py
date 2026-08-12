@@ -5,7 +5,7 @@ from typing import Optional
 import fitz
 import pdfplumber
 from langchain_core.documents import Document
-
+import json
 
 WHO_LICENSE = "CC BY-NC-SA 3.0 IGO"
 
@@ -76,24 +76,17 @@ def load_pdf(
     title: Optional[str] = None,
     url: Optional[str] = None,
     license: str = WHO_LICENSE,
+    manifest_entry: Optional[dict] = None, 
 ) -> list[Document]:
-    """
-    Load a PDF as page-level LangChain Documents.
-
-    Each non-empty page becomes one Document.
-    No text cleaning or chunking is performed here.
-    """
     pdf_path_obj = Path(pdf_path)
-    source = url or str(pdf_path_obj)
-    document_id = _make_document_id(source)
+    # source = manifest_entry.get("source") or url or str(pdf_path_obj)
+    document_id = _make_document_id(str(pdf_path_obj))
     docs = []
 
     with fitz.open(pdf_path) as fitz_doc, pdfplumber.open(pdf_path) as plumber_doc:
-        pdf_metadata = fitz_doc.metadata or {}
-        resolved_title = title or pdf_metadata.get("title") or pdf_path_obj.stem
+        # pdf_metadata = fitz_doc.metadata or {}
         n_pages = len(fitz_doc)
 
-        # --- Page-level extraction ---
         for page_num, (fitz_page, plumber_page) in enumerate(
             zip(fitz_doc, plumber_doc.pages), start=1
         ):
@@ -105,16 +98,17 @@ def load_pdf(
                 page_content=page_content,
                 metadata={
                     "document_id":    document_id,
-                    "source":         source,
+                    "source":         manifest_entry.get("item_url"),
                     "source_type":    "pdf",
                     "source_name":    source_name,
-                    "title":          resolved_title,
-                    "description":    pdf_metadata.get("subject"),
-                    "language":       pdf_metadata.get("language"),
-                    "published_date": None,
-                    "license":        license,
+                    "title":          manifest_entry.get("title"),
+                    "description":    manifest_entry.get("description"),
+                    "language":       manifest_entry.get("language"),
+                    "published_date": manifest_entry.get("published_date"),
+                    "license":        manifest_entry.get("license") or license,
                     "page_number":    page_num,
                     "n_pages":        n_pages,
+                    # "pdf_url":        manifest_entry.get("pdf_url"),
                 },
             ))
 
@@ -125,25 +119,34 @@ def load_pdfs_from_folder(
     folder: str,
     source_name: str,
     license: str = WHO_LICENSE,
+    manifest_path: Optional[str] = None,
 ) -> list[Document]:
-    """
-    Load all PDFs from a folder.
-
-    Returns page-level LangChain Documents.
-    """
     pdf_files = sorted(Path(folder).glob("*.pdf"))
     if not pdf_files:
         print(f"No PDF files found in {folder}")
         return []
 
+    # Load manifest once and index by local_path filename
+    manifest_index = {}
+    if manifest_path and Path(manifest_path).exists():
+        entries = json.loads(Path(manifest_path).read_text(encoding="utf-8"))
+        manifest_index = {
+            Path(entry["local_path"]).name: entry
+            for entry in entries
+            if entry.get("local_path")
+        }
+        print(f"Loaded {len(manifest_index)} manifest entries from {manifest_path}")
+
     docs = []
     for pdf_path in pdf_files:
         print(f"Loading: {pdf_path.name}")
         try:
+            manifest_entry = manifest_index.get(pdf_path.name, {})
             pdf_docs = load_pdf(
                 pdf_path=str(pdf_path),
                 source_name=source_name,
                 license=license,
+                manifest_entry=manifest_entry,
             )
             docs.extend(pdf_docs)
             print(f"  Loaded {len(pdf_docs)} pages")

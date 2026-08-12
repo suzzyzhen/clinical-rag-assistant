@@ -19,9 +19,9 @@ DEFAULT_HEADERS = {
 REQUEST_DELAY_SECONDS = 1.0
 
 
-# def _make_document_id(source: str) -> str:
-#     """Create a stable document ID from the source URL."""
-#     return hashlib.sha256(source.encode("utf-8")).hexdigest()[:16]
+def _make_document_id(source: str) -> str:
+    """Create a stable document ID from the source URL."""
+    return hashlib.sha256(source.encode("utf-8")).hexdigest()[:16]
 
 
 def _normalize_date(date_string: Optional[str]) -> Optional[str]:
@@ -157,7 +157,7 @@ def _build_document(
 ) -> Document:
     """Build a normalized LangChain Document."""
     metadata = {
-        # "document_id":    _make_document_id(url),
+        "document_id":    _make_document_id(url),
         "source":         url,
         "source_type":    "web",
         "source_name":    source_name,
@@ -176,7 +176,7 @@ def load_who_fact_sheets(
     source_url: str = "https://www.who.int/news-room/fact-sheets",
     target_prefix: str = "https://www.who.int/news-room/fact-sheets/detail/",
     headers: Optional[dict] = None,
-    manifest_path: Optional[str] = "../../data/who/manifest_web.json",
+    manifest_path: Optional[str] = "data/who/manifest_web.json",
     num_pages: Optional[int] = None,
     license: str = WHO_LICENSE,
 ) -> list[Document]:
