@@ -148,6 +148,13 @@ def _extract_raw_text(soup: BeautifulSoup) -> str:
 
     return soup.get_text("\n", strip=False)
 
+def save_manifest(docs: list[Document], manifest_path: str) -> None:
+    """Save document metadata to a JSON manifest."""
+    manifest = [doc.metadata for doc in docs]
+    path = Path(manifest_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Manifest written to {path}")
 
 def _build_document(
     url: str,
@@ -241,11 +248,3 @@ def load_who_fact_sheets(
 
     return docs
 
-
-def save_manifest(docs: list[Document], manifest_path: str) -> None:
-    """Save document metadata to a JSON manifest."""
-    manifest = [doc.metadata for doc in docs]
-    path = Path(manifest_path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Manifest written to {path}")
