@@ -1,0 +1,142 @@
+[
+    {
+        "query": "How many raw signals were scanned and triangulated through DEBS during epidemiological week 30?",
+        "expected_terms": ["752 000", "752000", "raw signals", "DEBS"]
+    },
+    {
+        "query": "How many signals met assessment thresholds and underwent further analysis during the reporting period?",
+        "expected_terms": ["29", "categorized signals", "further analysis"]
+    },
+    {
+        "query": "How many unique signals were identified out of the categorized signals?",
+        "expected_terms": ["27", "unique signals"]
+    },
+    {
+        "query": "How many signals were escalated for operational attention in week 30?",
+        "expected_terms": ["15", "escalated"]
+    },
+    {
+        "query": "How many confirmed cases and deaths were reported in the Bundibugyo virus disease outbreak in the DRC as of 26 July 2026?",
+        "expected_terms": ["3262", "1437", "confirmed cases", "deaths"]
+    },
+    {
+        "query": "Which province accounts for almost 90% of confirmed Bundibugyo virus disease cases in the DRC?",
+        "expected_terms": ["Ituri", "90%"]
+    },
+    {
+        "query": "How many countries reported case exportation from the DRC Bundibugyo virus disease outbreak?",
+        "expected_terms": ["two countries", "Uganda", "France"]
+    },
+    {
+        "query": "What was the national average alert investigation rate within 24 hours during the DRC outbreak?",
+        "expected_terms": ["83.5%", "24 hours", "investigated"]
+    },
+    {
+        "query": "What percentage of validated alerts in North Kivu were alive versus deceased at time of validation?",
+        "expected_terms": ["59.5%", "40.5%", "North Kivu"]
+    },
+    {
+        "query": "What was the peak daily total of alerts recorded during the DRC outbreak and on what date?",
+        "expected_terms": ["1937", "24 July 2026"]
+    },
+    {
+        "query": "How many global confirmed COVID-19 cases and deaths were reported to WHO between 2020 and the end of 2025?",
+        "expected_terms": ["778 million", "7 million", "confirmed cases", "deaths"]
+    },
+    {
+        "query": "What age group accounts for almost 90% of COVID-19 deaths reported to WHO in 2025?",
+        "expected_terms": ["65 years", "90%", "older adults"]
+    },
+    {
+        "query": "How many COVID-19 vaccine doses have been administered globally by the end of 2025?",
+        "expected_terms": ["13 billion", "doses administered"]
+    },
+    {
+        "query": "What was the peak year for global COVID-19 vaccine demand and how many doses were given?",
+        "expected_terms": ["2021", "11.3 billion"]
+    },
+    {
+        "query": "How are licensed COVID-19 vaccines typically administered?",
+        "expected_terms": ["intramuscularly", "deltoid muscle"]
+    },
+    {
+        "query": "What increased risk of maternal ICU admission was associated with SARS-CoV-2 infection during pregnancy in the Omicron era?",
+        "expected_terms": ["64%", "maternal ICU admission"]
+    },
+    {
+        "query": "What is abdakibartum and what target does it act on?",
+        "expected_terms": ["abdakibart", "IL1B", "interleukin 1", "monoclonal antibody"]
+    },
+    {
+        "query": "What type of molecule is actinium (225Ac) pelgifatamabum mopaxetanum and what does it target?",
+        "expected_terms": ["FOLH1", "PSMA", "prostate specific membrane antigen", "monoclonal antibody"]
+    },
+    {
+        "query": "Which cell line is used to produce actinium (225Ac) pelgifatamab mopaxetan?",
+        "expected_terms": ["Chinese hamster ovary", "CHO", "glycoform alfa"]
+    },
+    {
+        "query": "What is the recommended INN list number covering these new drug names in the WHO Drug Information Vol. 40, No. 1, 2026 issue?",
+        "expected_terms": ["List 95", "Recommended INN"]
+    },
+    {
+        "query": "What percentage of over 55,000 alerts in the DRC outbreak were validated as suspected cases?",
+        "expected_terms": ["23.5%", "12,900", "12900", "suspected cases"]
+    },
+    {
+        "query": "How many health zones and provinces are affected by the Bundibugyo virus disease outbreak?",
+        "expected_terms": ["48 health zones", "five provinces"]
+    },
+    {
+        "query": "What was Ituri's investigation rate for alerts compared to North Kivu's?",
+        "expected_terms": ["66%", "95%", "Ituri", "North Kivu"]
+    },
+    {
+        "query": "What is the ratio of confirmed cases to alerts in North Kivu versus Ituri?",
+        "expected_terms": ["one confirmed case per seven alerts", "one confirmed case per 105 alerts"]
+    },
+    {
+        "query": "What factors are contributing to insufficient alert system capacity in the DRC outbreak?",
+        "expected_terms": ["human resources", "community trust", "bed capacities", "insecurity"]
+    },
+    {
+        "query": "What percentage of hospitalized COVID-19 patients in the United States had at least one underlying comorbidity since 2023?",
+        "expected_terms": ["90%", "comorbidity", "hospitalized"]
+    },
+    {
+        "query": "What proportion of reported COVID-19 deaths in 2025 occurred in children under 15 years old?",
+        "expected_terms": ["less than 1%", "children under 15"]
+    },
+    {
+        "query": "What is the typical incubation period of COVID-19, particularly for the Omicron variant?",
+        "expected_terms": ["2 to 14 days", "2–4 days", "Omicron"]
+    },
+    {
+        "query": "What percentage of WHO Member States reported targeting older adults for COVID-19 vaccination in 2025?",
+        "expected_terms": ["65%", "older adults", "133"]
+    },
+    {
+        "query": "What storage temperature do mRNA COVID-19 vaccines require?",
+        "expected_terms": ["-20°C", "-80°C", "cold chain", "ultra-cold"]
+    },
+    {
+        "query": "Does heterologous COVID-19 vaccine boosting show different safety outcomes compared to homologous boosting?",
+        "expected_terms": ["heterologous", "homologous", "no increase in serious adverse events"]
+    },
+    {
+        "query": "What are common symptoms of COVID-19 disease according to the WHO position paper?",
+        "expected_terms": ["fever", "cough", "fatigue", "shortness of breath"]
+    },
+    {
+        "query": "What is sunvozertinib's ATC code and what is it used for?",
+        "expected_terms": ["sunvozertinib", "L01ED06"]
+    },
+    {
+        "query": "What ATC code is associated with recoflavone?",
+        "expected_terms": ["recoflavone", "S03AA09"]
+    },
+    {
+        "query": "What is PSMA-JK-7 (18F) and how is it classified?",
+        "expected_terms": ["PSMA-JK-7", "18F", "V09IX21"]
+    }
+]
