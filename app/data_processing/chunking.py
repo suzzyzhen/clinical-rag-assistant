@@ -104,32 +104,48 @@ def chunk_document(text: str, cfg: ChunkerConfig | None = None) -> list[dict]:
     return results
 
 
+def _build_chunk_document(
+    source_document: Document,
+    chunk_text: str,
+    chunk_index: int,
+    token_counter: Callable[[str], int],
+    section_title: str | None = None,
+    metadata: dict | None = None,
+) -> Document:
+    """Build a chunk document with consistent metadata."""
+    document_id = str(
+        source_document.metadata.get("document_id")
+        or source_document.metadata.get("source")
+        or "document"
+    )
+    page_marker = source_document.metadata.get("page_number")
+    page_marker = "web" if page_marker is None else str(page_marker)
+    chunk_metadata = dict(source_document.metadata if metadata is None else metadata)
+    chunk_metadata.update({
+        "chunk_id": f"{document_id}:{page_marker}:{chunk_index}",
+        "chunk_index": chunk_index,
+        "section_title": section_title,
+        "n_tokens_approx": token_counter(chunk_text),
+    })
+    return Document(page_content=chunk_text, metadata=chunk_metadata)
+
+
 def chunk_documents(
     documents: list[Document],
     cfg: ChunkerConfig | None = None,
 ) -> list[Document]:
     """Chunk LangChain documents while preserving metadata."""
+    cfg = cfg or ChunkerConfig()
     chunks: list[Document] = []
 
     for document in documents:
-        document_id = str(
-            document.metadata.get("document_id")
-            or document.metadata.get("source")
-            or "document"
-        )
-        page_marker = document.metadata.get("page_number")
-        page_marker = "web" if page_marker is None else str(page_marker)
-
         for chunk_index, chunk in enumerate(chunk_document(document.page_content, cfg)):
-            chunks.append(Document(
-                page_content=chunk["text"],
-                metadata={
-                    **document.metadata,
-                    "chunk_id": f"{document_id}:{page_marker}:{chunk_index}",
-                    "chunk_index": chunk_index,
-                    "section_title": chunk["section_title"],
-                    "n_tokens_approx": chunk["n_tokens_approx"],
-                },
+            chunks.append(_build_chunk_document(
+                source_document=document,
+                chunk_text=chunk["text"],
+                chunk_index=chunk_index,
+                token_counter=cfg.token_counter,
+                section_title=chunk["section_title"],
             ))
 
     return chunks
@@ -140,7 +156,6 @@ def make_token_counter(model_name: str) -> Callable[[str], int]:
     from sentence_transformers import SentenceTransformer
 
     model = SentenceTransformer(model_name)
-
     def count(text: str) -> int:
         encoded = model.tokenizer(text, add_special_tokens=True, truncation=False)
         return len(encoded["input_ids"])
@@ -190,3 +205,33 @@ def make_recursive_splitter(
             "",
         ],
     )
+
+
+def recursive_chunk_documents(
+    documents: list[Document],
+    model_name: str,
+    chunk_size: int = 350,
+    chunk_overlap: int = 60,
+    token_counter: Callable[[str], int] | None = None,
+) -> list[Document]:
+    """Chunk LangChain documents with the recursive splitter."""
+    splitter = make_recursive_splitter(
+        model_name,
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap,
+    )
+    token_counter = token_counter or make_token_counter(model_name)
+    chunks: list[Document] = []
+
+    for document in documents:
+        for chunk_index, chunk in enumerate(splitter.split_documents([document])):
+            chunks.append(_build_chunk_document(
+                source_document=document,
+                chunk_text=chunk.page_content,
+                chunk_index=chunk_index,
+                token_counter=token_counter,
+                section_title=None,
+                metadata=chunk.metadata,
+            ))
+
+    return chunks
