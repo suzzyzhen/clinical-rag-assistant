@@ -138,5 +138,69 @@
     {
         "query": "What is PSMA-JK-7 (18F) and how is it classified?",
         "expected_terms": ["PSMA-JK-7", "18F", "V09IX21"]
+    }, 
+    {
+        "query": "What percentage of unintended pregnancies end in induced abortion, and how many induced abortions occur worldwide each year?",
+        "expected_terms": ["61%", "73 million", "six out of 10"]
+    },
+    {
+        "query": "What percentage of all abortions are estimated to be unsafe, and what fraction of maternal deaths are linked to abortion?",
+        "expected_terms": ["45%", "8%", "unsafe", "maternal deaths"]
+    },
+    {
+        "query": "What was the economic cost to health systems in developing countries for treating complications of unsafe abortion?",
+        "expected_terms": ["US$ 553 million", "553 million", "post-abortion treatments"]
+    },
+    {
+        "query": "What proportion of people aged 60 and older experienced abuse in community settings in the past year?",
+        "expected_terms": ["1 in 6", "15.7%", "community settings"]
+    },
+    {
+        "query": "What percentage of staff in institutional settings such as nursing homes reported committing abuse of older people in the past year?",
+        "expected_terms": ["64.2%", "2 in 3", "staff"]
+    },
+    {
+        "query": "How much did rates of elder abuse in the community increase during the COVID-19 pandemic according to a US study?",
+        "expected_terms": ["84%", "COVID-19 pandemic", "community"]
+    },
+    {
+        "query": "What proportion of 10-19 year olds experience a mental disorder globally?",
+        "expected_terms": ["one in seven", "14.3%", "mental disorder"]
+    },
+    {
+        "query": "What is the leading cause of death among people aged 15-29 years related to mental health?",
+        "expected_terms": ["suicide", "third leading cause of death", "15–29"]
+
+    },
+    {
+        "query": "How many adolescents and young adults aged 10-24 died in 2021, and how many deaths per day does that represent?",
+        "expected_terms": ["1.5 million", "4500", "died in 2021"]
+
+    },
+    {
+        "query": "What percentage of girls globally received the HPV vaccine in 2021, and how many lives could be saved if 90% of girls were vaccinated?",
+        "expected_terms": ["12%", "40 million lives", "90%"]
+
+    },
+    {
+        "query": "How many pregnancies occurred among adolescents aged 15-19 in low- and middle-income countries as of 2019, and what proportion were unintended?",
+        "expected_terms": ["21 million", "50%", "unintended"]
+
+    },
+    {
+        "query": "By what year will 1 in 6 people in the world be aged 60 years or over, and what will the population of older people reach by 2050?",
+        "expected_terms": ["2030", "2.1 billion", "2050"]
+    },
+    {
+        "query": "How many deaths were caused by alcohol consumption worldwide in 2019, and how were they distributed between noncommunicable diseases, injuries and communicable diseases?",
+        "expected_terms": ["2.6 million", "1.6 million", "700 000", "300 000"]
+    },
+    {
+        "query": "What percentage of global cancer deaths in 2019 were attributed to alcohol consumption?",
+        "expected_terms": ["4.4%", "401 000", "cancer deaths"]
+    },
+    {
+        "query": "How many premature deaths were caused by ambient outdoor air pollution worldwide in 2019?",
+        "expected_terms": ["4.2 million", "premature deaths", "2019"]
     }
 ]

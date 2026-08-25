@@ -213,7 +213,9 @@ def load_who_fact_sheets(
     # --- Optional sampling for development ---
     if num_pages is not None and num_pages > 0:
         sample_size = min(num_pages, len(urls_to_load))
-        urls_to_load = random.sample(urls_to_load, sample_size)
+        # # uncomment the below for random sampling
+        # urls_to_load = random.sample(urls_to_load, sample_size)
+        urls_to_load = urls_to_load[:num_pages]
 
     print(f"Loading {len(urls_to_load)} WHO fact sheets.")
 
