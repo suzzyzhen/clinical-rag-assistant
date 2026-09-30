@@ -14,9 +14,8 @@ DEFAULT_CHUNKER_RUN = "pubmedbert_section_450"
 
 EMBEDDING_MODEL_NAME = os.environ.get(
     "EMBEDDING_MODEL_NAME",
-    "sentence-transformers/all-MiniLM-L6-v2",
+    "NeuML/pubmedbert-base-embeddings",
 )
-# "NeuML/pubmedbert-base-embeddings"
 
 # Full set of (model, chunker, chunk_size, chunk_overlap) combinations to
 # evaluate.
