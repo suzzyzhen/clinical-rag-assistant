@@ -7,7 +7,7 @@ import pdfplumber
 from langchain_core.documents import Document
 import json
 
-from app.data_loading.licensing import pdf_license
+from src.data_loading.licensing import pdf_license
 
 
 def _make_document_id(source: str) -> str:

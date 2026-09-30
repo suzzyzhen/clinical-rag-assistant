@@ -12,7 +12,7 @@ import requests
 from bs4 import BeautifulSoup
 from langchain_core.documents import Document
 
-from app.data_loading.licensing import html_license
+from src.data_loading.licensing import html_license
 
 API_URL = "https://www.who.int/api/hubs/factsheets"
 PAGE_ROOT = "https://www.who.int/news-room/fact-sheets/detail/"

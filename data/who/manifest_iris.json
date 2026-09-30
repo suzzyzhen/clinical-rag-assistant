@@ -1,5 +1,83 @@
 [
   {
+    "title": "Weekly Epidemiological Record, 2026, vol. 101, 38 [full issue]",
+    "item_url": "https://iris.who.int/handle/10665/387694",
+    "pdf_url": "https://iris.who.int/server/api/core/bitstreams/07c30489-e9a9-4332-bdd5-ae5aad1438d8/content",
+    "published_date": "2026-09-25",
+    "description": "This issue of the Weekly Epidemiological Record provides updates on current public health signals and respiratory virus activity and presents detailed epidemiological analyses of cholera, epidemic meningitis and human plague. During epidemiological week 38, WHO screened more than 582 000 signals for potential public health threats, while global surveillance showed low influenza and respiratory syncytial virus activity and stable, low SARS-CoV-2 positivity.\n\nThe issue reports 451 499 cholera cases and 7870 deaths from 47 countries in 2025; although reported cases declined compared with 2024, deaths increased and the burden remained concentrated in several heavily affected countries. It also reviews meningitis surveillance and control in the African meningitis belt, including epidemic activity, laboratory surveillance and vaccination, and examines human plague reported during 2019–2025, highlighting its continued geographical concentration. Together, these reports emphasize the importance of sustained epidemiological and laboratory surveillance, timely and complete reporting, vaccination and preparedness for detecting and responding to epidemic-prone diseases.",
+    "language": "en",
+    "local_path": "data/who/WER-101-38-eng.pdf",
+    "license": null,
+    "license_evidence": null,
+    "license_source": null,
+    "license_detection": "unknown"
+  },
+  {
+    "title": "Weekly Epidemiological Record, 2026, vol. 101, 36-37 [full issue]",
+    "item_url": "https://iris.who.int/handle/10665/387595",
+    "pdf_url": "https://iris.who.int/server/api/core/bitstreams/0f88e5ac-c4a9-4f0c-af4c-f0e39c3723a5/content",
+    "published_date": "2026-09-18",
+    "description": "This issue of the Weekly Epidemiological Record reports on selected global public health events and disease surveillance developments in September 2026. It summarizes signals and events identified through WHO public health intelligence activities during epidemiological weeks 36 and 37 and provides an update on global respiratory virus activity, including influenza, SARS-CoV-2 and respiratory syncytial virus. It also presents an assessment of influenza at the human-animal interface, covering newly reported human infections with influenza viruses of animal origin, their circulation in animals and associated public health risk.\n\nThe issue includes the global leprosy (Hansen disease) update for 2025, reviewing progress at the midpoint of the Global Leprosy Strategy 2021–2030. It presents global and regional trends in new case detection, childhood cases and grade-2 disability, and emphasizes early detection, person-centred care, contact screening and post-exposure prophylaxis, antimicrobial resistance surveillance and meaningful participation of people affected by leprosy as integral to achieving and sustaining elimination.",
+    "language": "en",
+    "local_path": "data/who/WER-101-36-37-eng.pdf",
+    "license": null,
+    "license_evidence": null,
+    "license_source": null,
+    "license_detection": "unknown"
+  },
+  {
+    "title": "Weekly Epidemiological Record, 2026, vol. 101, 35 [full issue]",
+    "item_url": "https://iris.who.int/handle/10665/387397",
+    "pdf_url": "https://iris.who.int/server/api/core/bitstreams/3aa9d847-80d4-4029-84ac-430e281f12f8/content",
+    "published_date": "2026-09-04",
+    "description": "This issue of the Weekly Epidemiological Record provides updates on public health signals and events, global respiratory virus activity and the multi-country cholera outbreak. During epidemiological week 35 (24–30 August 2026), WHO screened 621 233 signals through digital event-based surveillance, assessed 35 signals or events and escalated 23 for operational attention. Global surveillance for week 34 indicated that influenza and SARS-CoV-2 positivity remained stable and low overall, while respiratory syncytial virus positivity also remained low globally.\n\nThe cholera update reports 57 652 new cholera and acute watery diarrhoea cases and 471 associated deaths from 19 countries across four WHO regions in July 2026. From 1 January to 26 July, 221 365 cases and 2153 deaths were reported from 28 countries, with the African Region recording the highest numbers of cases and deaths. The report highlights substantial variation in transmission between countries and cautions that underreporting, reporting delays and differences in surveillance and laboratory capacity affect data comparability.",
+    "language": "en",
+    "local_path": "data/who/WER-101-35-eng.pdf",
+    "license": null,
+    "license_evidence": null,
+    "license_source": null,
+    "license_detection": "unknown"
+  },
+  {
+    "title": "Weekly Epidemiological Record, 2026, vol. 101, 34 [full issue]",
+    "item_url": "https://iris.who.int/handle/10665/387031",
+    "pdf_url": "https://iris.who.int/server/api/core/bitstreams/df6a76ba-7448-409a-baa2-2fea523e0cc8/content",
+    "published_date": "2026-08-28",
+    "description": "This issue of the Weekly Epidemiological Record presents updates on public health intelligence, global respiratory virus activity and vaccine and medicine safety. During epidemiological week 34 (17–23 August 2026), WHO public health intelligence teams screened approximately 604 275 signals through digital event-based surveillance, with 31 signals or events assessed and 21 escalated for operational attention. Global respiratory virus surveillance for week 33 indicated influenza positivity below 10% and low SARS-CoV-2 and respiratory syncytial virus activity globally.\n\nThe issue also summarizes the fifth joint meeting of the Advisory Committee on Safety of Medicinal Products and the Global Advisory Committee on Vaccine Safety, held in June 2026. Discussions addressed smart pharmacovigilance, risk communication, maternal respiratory syncytial virus vaccination, adverse events of special interest, Ebola, and safety monitoring of mpox, human papillomavirus and acellular pertussis vaccines, emphasizing continued pharmacovigilance, strengthened surveillance systems and collection of safety data, particularly in low- and middle-income countries and vulnerable populations.",
+    "language": "en",
+    "local_path": "data/who/WER-101-34-eng.pdf",
+    "license": null,
+    "license_evidence": null,
+    "license_source": null,
+    "license_detection": "unknown"
+  },
+  {
+    "title": "Weekly Epidemiological Record, 2026, vol. 101, 33 [full issue]",
+    "item_url": "https://iris.who.int/handle/10665/386963",
+    "pdf_url": "https://iris.who.int/server/api/core/bitstreams/18c72e11-6540-4d75-8657-c3bef29f9404/content",
+    "published_date": "2026-08-21",
+    "description": "This issue of the Weekly Epidemiological Record presents WHO Public Health Intelligence activities for epidemiological week 33 (10–16 August 2026) and examines the ongoing 2026 Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo in the context of the two previously documented BVD outbreaks, in Uganda in 2007–2008 and the Democratic Republic of the Congo in 2012. During the reporting week, digital event-based surveillance screened approximately 627 661 raw signals, of which 20 underwent further assessment and 14 were escalated for operational attention.\n\nComparison of the three BVD outbreaks shows that laboratory confirmation has become progressively faster, while delays in recognizing and escalating early evidence of transmission remain a recurring challenge. The 2026 outbreak is occurring across highly connected populations amid insecurity, displacement and a humanitarian emergency, increasing the consequences of delayed detection. The analysis emphasizes rapid investigation of unexplained deaths and illness among health-care workers and broader ebolavirus testing when initial species-specific testing is negative.",
+    "language": "en",
+    "local_path": "data/who/WER-101-33-eng.pdf",
+    "license": null,
+    "license_evidence": null,
+    "license_source": null,
+    "license_detection": "unknown"
+  },
+  {
+    "title": "Weekly Epidemiological Record, 2026, vol. 101, 32 [full issue]",
+    "item_url": "https://iris.who.int/handle/10665/386926",
+    "pdf_url": "https://iris.who.int/server/api/core/bitstreams/776982df-c700-49f8-8874-fe09e3d8166e/content",
+    "published_date": "2026-08-14",
+    "description": "This issue of the Weekly Epidemiological Record contains two main components. The first, “Highlighted Signals and Events”, summarizes WHO Public Health Intelligence activities during epidemiological week 32 (3–9 August 2026), including digital event-based surveillance for the early detection and assessment of potential public health threats, newly verified events and published rapid risk assessments.\n\nThe issue also presents the 2026 WHO position paper on typhoid vaccines, which updates and replaces the 2018 position paper and focuses primarily on typhoid conjugate vaccines (TCVs). It recommends TCVs for routine immunization in typhoid-endemic countries, particularly where typhoid incidence, case fatality or antimicrobial resistance is high, with catch-up vaccination at introduction. Recommendations also address booster doses, vaccination during outbreaks and use in fragile, conflict-affected and vulnerable settings. The paper identifies remaining evidence gaps concerning duration of protection, booster schedules and TCV use in outbreak response.",
+    "language": "en",
+    "local_path": "data/who/WER-101-32-eng.pdf",
+    "license": "CC BY-NC-SA 3.0 IGO",
+    "license_evidence": "Page 5: .org/10.1101/2025.05.20.25327816. 35 The WHO AWaRe (Access, Watch, Reserve) antibiotic book. Geneva: World Health Organization; 2022 (https://www.who.int/publications/i/item/ 9789240062382). Licence: CC BY-NC-SA 3.0 IGO. 36 Gibani MM, Jin C, Sreshtha S, Moore M, Norman L, Voysey M et al. Homologous and heterologous re-challenge with Salmonella Typhi and Salmonella Paraty- phi A in a randomised controlled human infection model. PLoS Negl Trop Dis. 2020;14:e0008783. https://doi.org/10.1371/journal.pntd.0008783. 170 WEEKLY EPIDEMIOLOGICAL RECORD, NO. 3",
+    "license_source": "https://iris.who.int/server/api/core/bitstreams/776982df-c700-49f8-8874-fe09e3d8166e/content",
+    "license_detection": "candidate"
+  },
+  {
     "title": "Weekly Epidemiological Record, 2026, vol. 101, 31 [full issue]",
     "item_url": "https://iris.who.int/handle/10665/386900",
     "pdf_url": "https://iris.who.int/server/api/core/bitstreams/7c6dd342-3672-4030-adbc-b0d2d83f462f/content",
@@ -7,7 +85,10 @@
     "description": "This issue of the Weekly Epidemiological Record provides an update on WHO public health intelligence activities and selected public health events reported during epidemiological week 31 (27 July–2 August 2026). Through digital event-based surveillance, WHO Public Health Intelligence teams screened and assessed signals from multiple sources to support early detection and evaluation of potential health threats. The report summarizes signal assessment metrics, newly identified events and published information products, including a Disease Outbreak News item.\n\nThe issue also presents a global epidemiological update on the multi-country cholera outbreak, including reported cases and deaths from January to June 2026, regional trends and detailed overviews of affected countries. It highlights factors contributing to transmission, including conflict, population displacement, inadequate water, sanitation and hygiene conditions, and challenges affecting surveillance and response. The report provides data visualizations, regional analyses and technical resources to support interpretation and ongoing cholera preparedness and response activities.",
     "language": "en",
     "local_path": "data/who/WER-101-31-eng.pdf",
-    "license": "CC BY-NC-SA 3.0 IGO"
+    "license": null,
+    "license_evidence": null,
+    "license_source": null,
+    "license_detection": "unknown"
   },
   {
     "title": "Weekly Epidemiological Record, 2026, vol. 101, 30 [full issue]",
@@ -17,7 +98,10 @@
     "description": "This issue of the Weekly Epidemiological Record brings together updates on global public health surveillance and immunization policy. It includes the weekly Highlighted Signals and Events summary, reporting the outcomes of WHO Public Health Intelligence digital event-based surveillance during epidemiological week 30 (20–26 July 2026), including selected signals, surveillance metrics, and information products that support the early detection and assessment of potential public health threats. The issue also features a preliminary analysis of the Bundibugyo virus disease outbreak in the Democratic Republic of the Congo, examining surveillance alerts, alert system performance, and operational challenges associated with outbreak detection and response.\n\nThe main feature is the WHO Position Paper on COVID-19 vaccines – July 2026, which presents updated WHO recommendations on the use of COVID-19 vaccines in the context of sustained SARS-CoV-2 circulation following the end of the Public Health Emergency of International Concern (PHEIC) in 2023, widespread population immunity, and the availability of Omicron-adapted vaccines. Developed on the basis of recommendations from the Strategic Advisory Group of Experts (SAGE) on Immunization, the paper reviews the latest evidence on COVID-19 epidemiology, populations at increased risk of hospitalization and death, and the effectiveness, impact, safety, and cost-effectiveness of COVID-19 vaccines. It provides WHO policy recommendations for routine COVID-19 vaccination, with particular emphasis on populations at highest risk of severe outcomes, offers guidance on vaccine product selection, vaccination schedules, and coadministration, and identifies key evidence gaps and priorities for future research.",
     "language": "en",
     "local_path": "data/who/WER-101-30-eng.pdf",
-    "license": "CC BY-NC-SA 3.0 IGO"
+    "license": "CC BY-NC-SA 3.0 IGO",
+    "license_evidence": "Page 6: ID-19 vaccination Geneva: World Health Organization; 2020 ((https://www.who. int/publications/i/item/who-sage-values-framework-for-the-allocation-and-prioritization-of-covid-19-vaccination). Licence: CC BY-NC-SA 3.0 IGO. 13 WHO SAGE Roadmap for prioritizing uses of COVID-19 vaccines. Geneva: World Health Organization; 2023 (https://www.who.int/publications/i/item/ WHO-2019-nCoV-Vaccines-SAGE-Prioritization-2023.1). Licence: CC BY-NC-SA 3.0 IGO. 14 COVID-19 vaccines technical documents Geneva: World Health Organization; 2025 (https://www.who.int/grou Page 6: SAGE Roadmap for prioritizing uses of COVID-19 vaccines. Geneva: World Health Organization; 2023 (https://www.who.int/publications/i/item/ WHO-2019-nCoV-Vaccines-SAGE-Prioritization-2023.1). Licence: CC BY-NC-SA 3.0 IGO. 14 COVID-19 vaccines technical documents Geneva: World Health Organization; 2025 (https://www.who.int/groups/strategic-advisory-group-of-experts-on- immunization/covid-19-materials). Licence: CC BY-NC-SA 3.0 IGO. 15 COVID-19 vaccine delivery toolkit. Geneva: World Health Organization; 2026 (https://www.who.int/tools/covid-19-vaccine Page 6: .0 IGO. 14 COVID-19 vaccines technical documents Geneva: World Health Organization; 2025 (https://www.who.int/groups/strategic-advisory-group-of-experts-on- immunization/covid-19-materials). Licence: CC BY-NC-SA 3.0 IGO. 15 COVID-19 vaccine delivery toolkit. Geneva: World Health Organization; 2026 (https://www.who.int/tools/covid-19-vaccine-introduction-toolkit). 16 Strategy to Achieve Global Covid-19 Vaccination by mid-2022. Geneva: World Health Organization; 2021 (https://www.who.int/publications/m/item/ strategy-to-achieve-global-covid-19-vaccina Page 6: irus disease threat management: advancing integration, sustainability, and equity, 2025–2030. Geneva: World Health Organization; 2025 (https://www.who.int/publications/i/item/9789240117662). Licence: CC BY-NC-SA 3.0 IGO. 139 WEEKLY EPIDEMIOLOGICAL RECORD, NO. 30, 31 July 2026 Page 8: nical characteristics of pregnant and nonpregnant women hospitalized with suspected or confirmed COVID-19. Geneva: World Health Organization; 2024 (https://iris.who.int/handle/10665/378693). Licence: CC BY-NCSA 3.0 IGO. 42 Reedy JM, Smith ER, Department of Global Health, Milken Institute School of Public Health, The George Washington University. A review of COVID-19- related risk in pregnancy in the Omicron era (unpublished). Washington (DC); 2026. 43 McClymont E, Blitz S, Forward L, Cole S, Alton GD, Boucoiran I et al. The role of vaccination in ma Page 10: -19 condition by a Delphi consensus. Geneva: World Health Organization; 2021 (https://www.who.int/publications/ i/item/WHO-2019-nCoV-Post_COVID-19_condition-Clinical_case_definition-2021.1). Licence: CC BY-NC-SA 3.0 IGO. 58 A clinical case definition for post COVID-19 condition in children and adolescents by expert consensus. Geneva: World Health Organization; 2023 (https: //www.who.int/publications/i/item/WHO-2019-nCoV-Post-COVID-19-condition-CA-Clinical-case-definition-2023-1). Licence: CC BY-NC-SA 3.0 IGO. 59 Tsampasian V, Elghazaly H, Chattopadh Page 10: adolescents by expert consensus. Geneva: World Health Organization; 2023 (https: //www.who.int/publications/i/item/WHO-2019-nCoV-Post-COVID-19-condition-CA-Clinical-case-definition-2023-1). Licence: CC BY-NC-SA 3.0 IGO. 59 Tsampasian V, Elghazaly H, Chattopadhyay R, Debski M, Naing TKP, Garg P et al. Risk factors associated with post−COVID-19 condition. JAMA Intern Med. 2023;183(6):566. doi:10.1001/jamainternmed.2023.0750 (https://doi.org/10.1001/jamainternmed.2023.0750). 60 O’Mahoney LL, Routen A, Gillies C, Ezekie W, Welford A, Zhang A et al. The Page 10: D013705. doi:10.1002/14651858.CD013705.pub3. 72 Therapeutics and COVID-19: living guideline, August 2025. Geneva: World Health Organization; 2025. (https://iris.who.int/handle/10665/382888). Licence: CC BY-NC-SA 3.0 IGO. 73 Clinical management of COVID-19: living guideline, June 2025. Geneva: World Health Organization; 2025 (https://www.who.int/publications/i/item/ B09467). Licence: CC BY-NC-SA 3.0 IGO. 143 WEEKLY EPIDEMIOLOGICAL RECORD, NO. 30, 31 July 2026 Page 10: 88). Licence: CC BY-NC-SA 3.0 IGO. 73 Clinical management of COVID-19: living guideline, June 2025. Geneva: World Health Organization; 2025 (https://www.who.int/publications/i/item/ B09467). Licence: CC BY-NC-SA 3.0 IGO. 143 WEEKLY EPIDEMIOLOGICAL RECORD, NO. 30, 31 July 2026 Page 12: iise-detail-page/covid-19-vaccination- coverage). 86 Immunization in practice: a guide for health workers. Geneva: World Health Organization; 2025 (https://iris.who.int/handle/10665/385080). Licence: CC BY-NC-SA 3.0 IGO. 87 Scott J, Abers MS, Marwah HK, McCann NC, Meyerowitz EA, Richterman A et al. Updated evidence for Covid-19, RSV, and influenza vaccines for 2025–2026. N Engl J Med. 2025;393(22):2221–42. doi:10.1056/NEJMsa2514268. 88 Boikos C, Schaible K, Nunez-Gonzalez S, Welch V, Hu T, Kyaw MH et al. Co-administration of BNT162b2 COVID-19 and in Page 16: ollowing immunization (AEFI): user manual for the revised WHO classification, second edition, 2019 update. Geneva: World Health Organization; 2019 (https://iris.who.int/handle/10665/340802). Licence: CC BY-NC-SA 3.0 IGO. 131 Nasreen S, Jiang Y, Lu H, Lee A, Cutland CL, Gentile A et al. Risk of Guillain-Barré syndrome after COVID-19 vaccination or SARS-CoV-2 infection: a multinational self-controlled case series study. Vaccine. 2025;60:127291. doi:10.1016/j.vaccine.2025.127291. 132 Le Vu S, Bertrand M, Botton J, Jabagi M-J, Drouin J, Semenzato L et a Page 19: and primary health care for 2022 and beyond. Geneva and New York: World Health Organization and the United Nations Children’s Fund (UNICEF); 2022 (https://iris.who.int/handle/10665/366171). Licence: CC BY-NC-SA 3.0 IGO. 152 WEEKLY EPIDEMIOLOGICAL RECORD, NO. 30, 31 July 2026 Page 22: al Influenza Surveillance and Response System: standards and operational guidance. Geneva: World Health Organization; 2024 (https://iris.who.int/items/44f14b60-49d1- 4ea9-bbce-58327c25f08e). Licence: CC BY-NC-SA 3.0 IGO. 171 Immunizations, vaccines and biologicals. COVID-19 vaccines. Geneva: World Health Organization (https://www.who.int/teams/immunization-vaccines- and-biologicals/diseases/covid-19-(corona-virus)). 172 CORC-CoV: Coronavirus Research & Development Roadmap. Geneva: World Health Organization; 2026 (https://cdn.who.int/media/docs/defau Page 22: -19 condition by a Delphi consensus. Geneva: World Health Organization; 2021 (https://www.who.int/publications/i/item/WHO-2019-nCoV- Post_COVID-19_condition-Clinical_case_definition-2021.1). Licence: CC BY-NC-SA 3.0 IGO. WHO standardized definition for children and adolescents: PCC in children and adolescents occurs in individuals with a history of confirmed SARS-CoV-2 infection, with at least one persistent physical symptom lasting for at least 12 weeks after testing positive, that impacts everyday functioning and cannot be explained by another dia Page 22: adolescents by expert consensus. Geneva: World Health Organization; 2023 (https://www.who.int/publications/i/ item/WHO-2019-nCoV-Post-COVID-19-condition-CA-Clinical-case-definition-2023-1). Licence: CC BY-NC-SA 3.0 IGO. 155 WEEKLY EPIDEMIOLOGICAL RECORD, NO. 30, 31 July 2026",
+    "license_source": "https://iris.who.int/server/api/core/bitstreams/982febef-965c-4360-bcda-5d48651eb95c/content",
+    "license_detection": "candidate"
   },
   {
     "title": "Weekly Epidemiological Record, 2026, vol. 101, 29 [full issue]",
@@ -27,7 +111,10 @@
     "description": "This issue of the Weekly epidemiological record presents three public health updates. It summarizes WHO Public Health Intelligence activities conducted during epidemiological week 29 (13–19 July 2026), highlighting digital event-based surveillance outputs, selected signals and events requiring operational attention, and the publication of a Disease Outbreak News report. It also provides a global dengue update based on surveillance data through the end of June 2026, describing recent epidemiological trends, regional and country-level distribution of reported cases and deaths, surveillance considerations, and WHO’s support for prevention and control through the Global Arbovirus Initiative, including vector control, surveillance, preparedness, community engagement, and climate-informed response.\n\nThe issue also summarizes the 41st Meeting of the International Task Force for Disease Eradication on the elimination of trachoma as a public health problem. It reviews global progress towards the 2030 elimination target, implementation of the SAFE strategy, validation experiences, persistent operational and epidemiological challenges, and emerging evidence to strengthen programme implementation. The report discusses approaches to addressing persistent and recrudescent trachoma, interventions in insecure settings, advances in surveillance and diagnostics, and priorities for sustaining elimination efforts through evidence-based, multisectoral action.",
     "language": "en",
     "local_path": "data/who/WER-101-29-eng.pdf",
-    "license": "CC BY-NC-SA 3.0 IGO"
+    "license": null,
+    "license_evidence": null,
+    "license_source": null,
+    "license_detection": "unknown"
   },
   {
     "title": "Weekly Epidemiological Record, 2026, vol. 101, 28 [full issue]",
@@ -37,36 +124,9 @@
     "description": "This issue of the Weekly Epidemiological Record presents three public health updates. It summarizes WHO Public Health Intelligence activities during epidemiological week 28 (6–12 July 2026), reporting the results of global digital event-based surveillance, including the assessment and escalation of signals of potential public health importance and recently verified events. It also provides a global epidemiological update on SARS-CoV-2, reviewing recent trends in virus circulation, reported cases, deaths, test positivity, regional patterns, variant distribution, wastewater surveillance and the current limitations affecting surveillance data and interpretation.\n\nThe issue further reports on progress towards the global elimination of trachoma during 2025–2026. It reviews the epidemiology of trachoma, implementation of the SAFE strategy, country validation status, populations requiring interventions and updated estimates of the global burden of disease based on evaluation-unit data reported to WHO. The report summarizes progress achieved through surgery, antibiotic distribution, facial cleanliness and environmental improvement, highlighting continuing reductions in populations requiring interventions while identifying countries where elimination activities and surveillance remain necessary.",
     "language": "en",
     "local_path": "data/who/WER-101-28-eng.pdf",
-    "license": "CC BY-NC-SA 3.0 IGO"
-  },
-  {
-    "title": "Weekly Epidemiological Record, 2026, vol. 101, 27 [full issue]",
-    "item_url": "https://iris.who.int/handle/10665/386698",
-    "pdf_url": "https://iris.who.int/server/api/core/bitstreams/146de6cb-35d1-4d31-b02b-56fd88c76992/content",
-    "published_date": "2026-07-10",
-    "description": "This issue of the Weekly Epidemiological Record summarizes public health signals and events identified through WHO digital event-based surveillance during epidemiological week 27, from 29 June to 5 July 2026, and provides an update on the multi-country outbreak of mpox. It reports signal assessment and escalation activities, selected potential public health events across WHO regions, verified events and published Disease Outbreak News outputs.\n\nThe mpox update describes the global epidemiological situation from January 2022 to May 2026, including regional trends, geographic distribution and continued circulation of monkeypox virus clades Ia, Ib, IIa and IIb. It highlights the expansion of clade Ib and the continuing global distribution of clade IIb, with particular attention to the ongoing outbreak in Madagascar, response measures and operational challenges. The report also identifies populations at increased risk of infection or severe disease and emphasizes sustained surveillance and notification, coordinated preparedness and response, community engagement, stigma-free risk communication, and access to vaccination for populations at risk.",
-    "language": "en",
-    "local_path": "data/who/WER-101-27-eng.pdf",
-    "license": "CC BY-NC-SA 3.0 IGO"
-  },
-  {
-    "title": "WHO Drug Information 2026, vol. 40, 2 [full issue]",
-    "item_url": "https://iris.who.int/handle/10665/386676",
-    "pdf_url": "https://iris.who.int/server/api/core/bitstreams/5224f8d4-ee32-43f5-8c45-4ba668826465/content",
-    "published_date": "2026-07-07",
-    "description": "This issue of WHO Drug Information presents technical and regulatory information on medicines development, quality, safety and classification. It includes a methodological pilot study on the use of an adapted GRADE Evidence-to-Decision framework to support prioritization of PD-1 and PD-L1 immune checkpoint inhibitors for possible inclusion in the WHO Model List of Essential Medicines for adults with solid tumours in the palliative first-line setting. The study examines clinical benefits and harms alongside certainty of evidence, patient values, costs, cost-effectiveness, equity, acceptability, feasibility and availability.\n\nThe issue also publishes consultation documents providing updated guidance on bioequivalence for immediate-release oral dosage forms, a model quality assurance system for procurement agencies, and considerations for integrating environmental sustainability strategies and metrics into pharmaceutical manufacturing. It further presents temporary and final updates to the Anatomical Therapeutic Chemical/Defined Daily Dose classification and Proposed International Nonproprietary Names List No. 135 for pharmaceutical substances.",
-    "language": "en",
-    "local_path": "data/who/WHO_drug_information_2026_v40_2.pdf",
-    "license": "CC BY-NC-SA 3.0 IGO"
-  },
-  {
-    "title": "WHO Drug Information 2026, vol. 40, 1 [full issue]",
-    "item_url": "https://iris.who.int/handle/10665/385136",
-    "pdf_url": "https://iris.who.int/server/api/core/bitstreams/80e12b28-ff13-4dbf-82ff-73748d4bbf31/content",
-    "published_date": "2026-03-31",
-    "description": "Ensuring consistent identification and quality assurance of pharmaceutical substances is a fundamental component of global medicines regulation and patient safety. This issue of WHO Drug Information, a quarterly publication of the World Health Organization, presents a collection of technical and regulatory materials, including consultation documents and the latest Recommended International Nonproprietary Names (INN) for pharmaceutical substances.\n\nIt outlines draft monographs for dapsone and dapsone tablets intended for inclusion in The International Pharmacopoeia, detailing specifications for identity, purity, assay methods, and impurity control using standardized analytical techniques such as chromatography and spectrophotometry. The publication further compiles Recommended INN List 95, providing internationally harmonized nomenclature alongside detailed chemical descriptions of newly assigned names in multiple languages. By presenting WHO policies, technical standards and classification systems, the document supports regulatory authorities, quality control laboratories, pharmaceutical manufacturers and other stakeholders in ensuring the safety, quality and consistent identification of medicines across jurisdictions.",
-    "language": "en",
-    "local_path": "data/who/WHO_drug_information_2026_v40_1.pdf",
-    "license": "CC BY-NC-SA 3.0 IGO"
+    "license": null,
+    "license_evidence": null,
+    "license_source": null,
+    "license_detection": "unknown"
   }
 ]

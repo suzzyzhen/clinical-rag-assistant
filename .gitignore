@@ -10,5 +10,8 @@ wheels/
 .venv
 .env
 data/vectorstore/
+data/who/*.pdf
 scripts/validate_eval_sources.py
 notebooks/web_docs_info.txt
+notebooks/wer_docs_info.txt
+notebooks/data_processing_test.ipynb

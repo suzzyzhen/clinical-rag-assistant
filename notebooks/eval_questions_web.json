@@ -1,0 +1,427 @@
+[
+  {
+    "id": "web-01",
+    "query": "According to the saved Abortion fact sheet, approximately how many induced abortions occur worldwide each year?",
+    "expected_terms": [
+      "73 million"
+    ],
+    "reference_answer": "Around 73 million.",
+    "expected_sources": [
+      {
+        "document_id": "5b0b7734e71088ca",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/abortion",
+        "title": "Abortion",
+        "published_date": "2025-12-08",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 1,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-02",
+    "query": "What three components make up comprehensive abortion care in the saved WHO fact sheet?",
+    "expected_terms": [
+      "provision of information",
+      "abortion management",
+      "post-abortion care"
+    ],
+    "reference_answer": "Provision of information, abortion management, and post-abortion care.",
+    "expected_sources": [
+      {
+        "document_id": "5b0b7734e71088ca",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/abortion",
+        "title": "Abortion",
+        "published_date": "2025-12-08",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 1,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-03",
+    "query": "What past-year prevalence of abuse among people aged 60 and older was estimated by the 2017 review of 52 studies in 28 countries?",
+    "expected_terms": [
+      "1 in 6",
+      "15.7%"
+    ],
+    "reference_answer": "One in six people, or 15.7%.",
+    "expected_sources": [
+      {
+        "document_id": "ba5478ac7084f708",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/abuse-of-older-people",
+        "title": "Abuse of older people",
+        "published_date": "2024-06-15",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 2,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-04",
+    "query": "What individual characteristics increase the risk of becoming a victim of elder abuse according to the saved fact sheet?",
+    "expected_terms": [
+      "functional dependence/disability",
+      "cognitive impairment",
+      "low income"
+    ],
+    "reference_answer": "Functional dependence or disability, poor physical health, cognitive impairment, poor mental health, and low income.",
+    "expected_sources": [
+      {
+        "document_id": "ba5478ac7084f708",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/abuse-of-older-people",
+        "title": "Abuse of older people",
+        "published_date": "2024-06-15",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 2,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-05",
+    "query": "What proportion of 10–19-year-olds globally is estimated to experience mental health conditions in the saved adolescent mental health fact sheet?",
+    "expected_terms": [
+      "one in seven",
+      "14.3%"
+    ],
+    "reference_answer": "One in seven, or 14.3%.",
+    "expected_sources": [
+      {
+        "document_id": "b552dbd0c2b416a7",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "title": "Mental health of adolescents",
+        "published_date": "2025-09-01",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 3,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-06",
+    "query": "How do estimated anxiety disorder rates compare between adolescents aged 10–14 and 15–19 in the saved fact sheet?",
+    "expected_terms": [
+      "4.1%",
+      "5.3%"
+    ],
+    "reference_answer": "4.1% among ages 10–14, compared with 5.3% among ages 15–19.",
+    "expected_sources": [
+      {
+        "document_id": "b552dbd0c2b416a7",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "title": "Mental health of adolescents",
+        "published_date": "2025-09-01",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 3,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-07",
+    "query": "Based on 2019 data, how many pregnancies occurred annually among adolescents aged 15–19 in low- and middle-income countries, and what proportion were unintended?",
+    "expected_terms": [
+      "21 million",
+      "50%"
+    ],
+    "reference_answer": "An estimated 21 million pregnancies annually, approximately 50% unintended.",
+    "expected_sources": [
+      {
+        "document_id": "93b0ffd1da6fe2f8",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/adolescent-pregnancy",
+        "title": "Adolescent pregnancy",
+        "published_date": "2024-04-10",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 4,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-08",
+    "query": "How did the global birth rate among women aged 15–19 change from 2000 to 2023 in the saved adolescent pregnancy fact sheet?",
+    "expected_terms": [
+      "64.5",
+      "41.3"
+    ],
+    "reference_answer": "It decreased from 64.5 to 41.3 births per 1,000 women aged 15–19.",
+    "expected_sources": [
+      {
+        "document_id": "93b0ffd1da6fe2f8",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/adolescent-pregnancy",
+        "title": "Adolescent pregnancy",
+        "published_date": "2024-04-10",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 4,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-09",
+    "query": "How many adolescents and young adults aged 10–24 died in 2021, and approximately how many deaths per day was that?",
+    "expected_terms": [
+      "1.5 million",
+      "4500"
+    ],
+    "reference_answer": "Over 1.5 million deaths, approximately 4,500 per day.",
+    "expected_sources": [
+      {
+        "document_id": "ebd86e5f4df99afb",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions",
+        "title": "Adolescent and young adult health",
+        "published_date": "2024-11-26",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 5,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-10",
+    "query": "In 2021, how did the probability of a 10-year-old dying before age 24 in sub-Saharan Africa compare with North America and Europe?",
+    "expected_terms": [
+      "6 times higher"
+    ],
+    "reference_answer": "It was about six times higher in sub-Saharan Africa.",
+    "expected_sources": [
+      {
+        "document_id": "ebd86e5f4df99afb",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions",
+        "title": "Adolescent and young adult health",
+        "published_date": "2024-11-26",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 5,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-11",
+    "query": "What global population aged 60 and older is projected for 2050 in the saved Ageing and health fact sheet?",
+    "expected_terms": [
+      "2.1 billion"
+    ],
+    "reference_answer": "2.1 billion people.",
+    "expected_sources": [
+      {
+        "document_id": "2c3047dd7b98bcc5",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health",
+        "title": "Ageing and health",
+        "published_date": "2025-10-01",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 6,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-12",
+    "query": "Which five geriatric syndromes are listed in the saved Ageing and health fact sheet?",
+    "expected_terms": [
+      "frailty",
+      "urinary incontinence",
+      "falls",
+      "delirium",
+      "pressure ulcers"
+    ],
+    "reference_answer": "Frailty, urinary incontinence, falls, delirium, and pressure ulcers.",
+    "expected_sources": [
+      {
+        "document_id": "2c3047dd7b98bcc5",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health",
+        "title": "Ageing and health",
+        "published_date": "2025-10-01",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 6,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-13",
+    "query": "How were the 2.6 million alcohol-attributable deaths in 2019 distributed among noncommunicable diseases, injuries, and communicable diseases?",
+    "expected_terms": [
+      "1.6 million",
+      "700 000",
+      "300 000"
+    ],
+    "reference_answer": "1.6 million from noncommunicable diseases, 700,000 from injuries, and 300,000 from communicable diseases.",
+    "expected_sources": [
+      {
+        "document_id": "a106c0f04156393f",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/alcohol",
+        "title": "Alcohol",
+        "published_date": "2024-06-28",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 7,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-14",
+    "query": "According to the saved Alcohol fact sheet, what proportion of people with alcohol use disorders had contact with treatment services in countries with available data?",
+    "expected_terms": [
+      "less than 1%",
+      "14%"
+    ],
+    "reference_answer": "The proportion ranged from less than 1% to no more than 14%.",
+    "expected_sources": [
+      {
+        "document_id": "a106c0f04156393f",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/alcohol",
+        "title": "Alcohol",
+        "published_date": "2024-06-28",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 7,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-15",
+    "query": "How many premature deaths worldwide were attributed to ambient outdoor air pollution in 2019?",
+    "expected_terms": [
+      "4.2 million"
+    ],
+    "reference_answer": "An estimated 4.2 million.",
+    "expected_sources": [
+      {
+        "document_id": "a4bc0827879b485a",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health",
+        "title": "Ambient (outdoor) air pollution",
+        "published_date": "2024-10-24",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 8,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-16",
+    "query": "What proportion of outdoor-air-pollution-related premature deaths in 2019 was attributed to ischaemic heart disease and stroke?",
+    "expected_terms": [
+      "68%"
+    ],
+    "reference_answer": "68%.",
+    "expected_sources": [
+      {
+        "document_id": "a4bc0827879b485a",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health",
+        "title": "Ambient (outdoor) air pollution",
+        "published_date": "2024-10-24",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 8,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-17",
+    "query": "How does the saved WHO fact sheet define anaemia?",
+    "expected_terms": [
+      "red blood cells",
+      "haemoglobin",
+      "lower than normal"
+    ],
+    "reference_answer": "A condition in which the number of red blood cells or their haemoglobin concentration is lower than normal.",
+    "expected_sources": [
+      {
+        "document_id": "ce0cb913abc434b0",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+        "title": "Anaemia",
+        "published_date": "2025-02-10",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 9,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-18",
+    "query": "Which nutritional deficiency is identified as the most common cause of nutritional anaemia, and which other vitamin deficiencies can also cause it?",
+    "expected_terms": [
+      "Iron deficiency",
+      "vitamin A",
+      "folate",
+      "vitamin B12",
+      "riboflavin"
+    ],
+    "reference_answer": "Iron deficiency is the most common; deficiencies in vitamin A, folate, vitamin B12, and riboflavin can also cause anaemia.",
+    "expected_sources": [
+      {
+        "document_id": "ce0cb913abc434b0",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+        "title": "Anaemia",
+        "published_date": "2025-02-10",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 9,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-19",
+    "query": "Which population is at greatest risk of dog bites according to the saved Animal bites fact sheet?",
+    "expected_terms": [
+      "Children",
+      "mid-to-late childhood"
+    ],
+    "reference_answer": "Children, with the majority of those children in mid-to-late childhood.",
+    "expected_sources": [
+      {
+        "document_id": "6b971fe2c2de73d6",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/animal-bites",
+        "title": "Animal bites",
+        "published_date": "2024-01-12",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 10,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  },
+  {
+    "id": "web-20",
+    "query": "How does the likelihood of infection after a cat bite compare with a dog bite in the saved Animal bites fact sheet?",
+    "expected_terms": [
+      "double",
+      "dog bite"
+    ],
+    "reference_answer": "A cat bite is twice as likely to become infected.",
+    "expected_sources": [
+      {
+        "document_id": "6b971fe2c2de73d6",
+        "source": "https://www.who.int/news-room/fact-sheets/detail/animal-bites",
+        "title": "Animal bites",
+        "published_date": "2024-01-12",
+        "page_number": null,
+        "snapshot_file": "notebooks/web_docs_info.txt",
+        "snapshot_document_number": 10,
+        "snapshot_sha256": "e5df0409264a05b9321c0f1930f2962e53b97200470f6bea6eead1b940731bb0"
+      }
+    ]
+  }
+]

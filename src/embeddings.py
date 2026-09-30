@@ -6,7 +6,7 @@ import numpy as np
 from langchain_core.documents import Document
 from sentence_transformers import SentenceTransformer
 
-from app.config import EMBEDDING_MODEL_NAME
+from src.config import EMBEDDING_MODEL_NAME
 
 
 def load_embedding_model(

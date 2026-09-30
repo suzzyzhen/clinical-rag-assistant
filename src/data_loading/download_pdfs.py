@@ -5,6 +5,8 @@ from pathlib import Path
 
 import requests
 
+from src.data_loading.licensing import iris_license, pdf_license
+
 IRIS_API = "https://iris.who.int/server/api"
 WER_COLLECTION_HANDLE = "10665/2650"   # WHO WER collection handle on IRIS
 HEADERS = {
@@ -12,7 +14,6 @@ HEADERS = {
     "Accept": "application/json",
 }
 REQUEST_DELAY_SECONDS = 1.0
-from app.data_loading.licensing import iris_license, pdf_license
 
 
 def _resolve_handle_to_uuid(handle: str) -> str:
@@ -238,4 +239,3 @@ def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, o
     print(f"\nManifest written to {manifest_path}")
 
     return manifest
-

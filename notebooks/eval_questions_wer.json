@@ -1,0 +1,561 @@
+[
+  {
+    "id": "wer-01",
+    "query": "What was the global SARS-CoV-2 test positivity rate for the week ending 21 June 2026, and what was the surveillance sample size?",
+    "expected_terms": [
+      "1.7%",
+      "59,000",
+      "72"
+    ],
+    "reference_answer": "1.7%, based on approximately 59,000 specimens from 72 countries.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-28-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386742",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 28 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "3e0a02ac0ded53c86cb6ecc3a1e7d48a42a8ef2399e999bc5c5dcecde4c841e1"
+      }
+    ]
+  },
+  {
+    "id": "wer-02",
+    "query": "Which SARS-CoV-2 variant was most prevalent globally in the 28-day period ending 7 June 2026, and what share of submitted sequences did it represent?",
+    "expected_terms": [
+      "NB.1.8.1",
+      "50%",
+      "123/247"
+    ],
+    "reference_answer": "NB.1.8.1, representing 50% (123 of 247) of submitted sequences.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-28-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386742",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 28 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "3e0a02ac0ded53c86cb6ecc3a1e7d48a42a8ef2399e999bc5c5dcecde4c841e1"
+      }
+    ]
+  },
+  {
+    "id": "wer-03",
+    "query": "What reporting limitations does the July 2026 global COVID-19 update identify for its surveillance data?",
+    "expected_terms": [
+      "4-week delay",
+      "underreporting",
+      "high income countries"
+    ],
+    "reference_answer": "Data generally arrive with a four-week delay and are affected by underreporting and reporting bias towards high-income countries.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-28-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386742",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 28 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "3e0a02ac0ded53c86cb6ecc3a1e7d48a42a8ef2399e999bc5c5dcecde4c841e1"
+      }
+    ]
+  },
+  {
+    "id": "wer-04",
+    "query": "Which mosquito species are identified as the main dengue vectors in the July 2026 global dengue update?",
+    "expected_terms": [
+      "Aedes aegypti",
+      "Aedes albopictus"
+    ],
+    "reference_answer": "Aedes aegypti and Aedes albopictus.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-29-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386773",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 29 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "2f8d7b94cd78db66f80595daa200a55d0cb2b1432a3c590b9e3e360f34760d4d"
+      }
+    ]
+  },
+  {
+    "id": "wer-05",
+    "query": "When did WHO establish its almost real-time global dengue surveillance system, and how many countries, territories and areas does the July 2026 update say it includes?",
+    "expected_terms": [
+      "2024",
+      "185"
+    ],
+    "reference_answer": "It was established in 2024 and includes monthly data from 185 countries, territories and areas.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-29-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386773",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 29 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "2f8d7b94cd78db66f80595daa200a55d0cb2b1432a3c590b9e3e360f34760d4d"
+      }
+    ]
+  },
+  {
+    "id": "wer-06",
+    "query": "Which year had the highest recorded global dengue burden according to the July 2026 update, and approximately how many cases and deaths were recorded?",
+    "expected_terms": [
+      "2024",
+      "14.2 million",
+      "10 000"
+    ],
+    "reference_answer": "2024, with over 14.2 million cases and more than 10,000 deaths.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-29-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386773",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 29 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "2f8d7b94cd78db66f80595daa200a55d0cb2b1432a3c590b9e3e360f34760d4d"
+      }
+    ]
+  },
+  {
+    "id": "wer-07",
+    "query": "As of 26 July 2026, how many confirmed Bundibugyo virus disease cases and deaths had been reported in the DRC, and how many health zones were affected?",
+    "expected_terms": [
+      "3262",
+      "1437",
+      "48"
+    ],
+    "reference_answer": "3,262 confirmed cases, including 1,437 deaths, in 48 health zones across five provinces.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-30-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386835",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 30 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "59c7eecc8a004b3ef1150405c284ca0c15fd874b8cc1d287e87c15008f73eede"
+      }
+    ]
+  },
+  {
+    "id": "wer-08",
+    "query": "Which province accounted for almost 90% of confirmed DRC Bundibugyo virus disease cases as of 26 July 2026?",
+    "expected_terms": [
+      "Ituri"
+    ],
+    "reference_answer": "Ituri Province.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-30-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386835",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 30 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "59c7eecc8a004b3ef1150405c284ca0c15fd874b8cc1d287e87c15008f73eede"
+      }
+    ]
+  },
+  {
+    "id": "wer-09",
+    "query": "Which countries had imported Bundibugyo virus disease cases from the DRC as of 26 July 2026, and how many cases did each report?",
+    "expected_terms": [
+      "Uganda",
+      "15",
+      "France",
+      "one imported case"
+    ],
+    "reference_answer": "Uganda reported 15 confirmed imported cases; France reported one imported case in a medical professional.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-30-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386835",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 30 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "59c7eecc8a004b3ef1150405c284ca0c15fd874b8cc1d287e87c15008f73eede"
+      }
+    ]
+  },
+  {
+    "id": "wer-10",
+    "query": "How many new cholera and AWD cases were reported in June 2026, and how did this compare with the previous month?",
+    "expected_terms": [
+      "47 758",
+      "18 countries",
+      "60%"
+    ],
+    "reference_answer": "47,758 cases from 18 countries, a 60% increase from the previous month.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-31-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386900",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 31 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "be01df46b8e0d7e487f1cf7fb0c1f0d330a487f8abfcd17d47fe787e4ee2e568"
+      }
+    ]
+  },
+  {
+    "id": "wer-11",
+    "query": "What factors were associated with the surge of cholera cases in Borno state described in the August 2026 update?",
+    "expected_terms": [
+      "conflict",
+      "population displacement",
+      "inadequate sanitation",
+      "rainfall"
+    ],
+    "reference_answer": "Conflict, population displacement, inadequate sanitation, and rainfall heightened transmission risk.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-31-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386900",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 31 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "be01df46b8e0d7e487f1cf7fb0c1f0d330a487f8abfcd17d47fe787e4ee2e568"
+      }
+    ]
+  },
+  {
+    "id": "wer-12",
+    "query": "How many cumulative cholera and AWD cases and deaths were reported globally from 1 January to 28 June 2026?",
+    "expected_terms": [
+      "163 031",
+      "1686",
+      "26 countries"
+    ],
+    "reference_answer": "163,031 cases and 1,686 deaths from 26 countries across four WHO regions.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-31-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386900",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 31 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "be01df46b8e0d7e487f1cf7fb0c1f0d330a487f8abfcd17d47fe787e4ee2e568"
+      }
+    ]
+  },
+  {
+    "id": "wer-13",
+    "query": "Who are the primary intended users of WHO vaccine position papers, according to the 2026 typhoid vaccine paper?",
+    "expected_terms": [
+      "national public health officials",
+      "managers of immunization programmes"
+    ],
+    "reference_answer": "National public health officials and managers of immunization programmes.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-32-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386926",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 32 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "4d527aaa71bcb0290346aba4d7ba833894c74c79dfcca453780b6d68b64e91cb"
+      }
+    ]
+  },
+  {
+    "id": "wer-14",
+    "query": "On what date did SAGE issue the typhoid vaccine recommendations described in the 2026 position paper?",
+    "expected_terms": [
+      "10 March 2026"
+    ],
+    "reference_answer": "10 March 2026.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-32-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386926",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 32 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "4d527aaa71bcb0290346aba4d7ba833894c74c79dfcca453780b6d68b64e91cb"
+      }
+    ]
+  },
+  {
+    "id": "wer-15",
+    "query": "Who develops the typhoid vaccine position paper following the SAGE meeting, according to the 2026 paper?",
+    "expected_terms": [
+      "WHO SAGE Secretariat",
+      "headquarters",
+      "regional levels"
+    ],
+    "reference_answer": "The WHO SAGE Secretariat, with input from WHO staff at headquarters and regional levels.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-32-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386926",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 32 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "4d527aaa71bcb0290346aba4d7ba833894c74c79dfcca453780b6d68b64e91cb"
+      }
+    ]
+  },
+  {
+    "id": "wer-16",
+    "query": "Where and when was Bundibugyo virus first recognized as a cause of human disease?",
+    "expected_terms": [
+      "Bundibugyo District",
+      "western Uganda",
+      "2007"
+    ],
+    "reference_answer": "Bundibugyo District in western Uganda, in 2007.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-33-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386963",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 33 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "4d1b5608f1f3feba85c1fe1fb9f95a19d45c6c4abedf1dc1cd7227f3067b8db5"
+      }
+    ]
+  },
+  {
+    "id": "wer-17",
+    "query": "Was the source of zoonotic transmission established for the 2007–2008 Bundibugyo outbreak in Uganda?",
+    "expected_terms": [
+      "wildlife exposure",
+      "not established"
+    ],
+    "reference_answer": "No. Wildlife exposure was presumed, but the source of zoonotic transmission was not established.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-33-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386963",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 33 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "4d1b5608f1f3feba85c1fe1fb9f95a19d45c6c4abedf1dc1cd7227f3067b8db5"
+      }
+    ]
+  },
+  {
+    "id": "wer-18",
+    "query": "How geographically concentrated was transmission during the 2007–2008 Bundibugyo outbreak in Uganda?",
+    "expected_terms": [
+      "97%",
+      "four",
+      "10"
+    ],
+    "reference_answer": "More than 97% of probable and confirmed cases occurred in four of ten subcounties, with no sustained transmission documented outside Bundibugyo District.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-33-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/386963",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 33 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "4d1b5608f1f3feba85c1fe1fb9f95a19d45c6c4abedf1dc1cd7227f3067b8db5"
+      }
+    ]
+  },
+  {
+    "id": "wer-19",
+    "query": "Which surveillance system underlies the respiratory virus findings in WER issue 34 of 2026?",
+    "expected_terms": [
+      "Global Influenza Surveillance and Response System",
+      "GISRS"
+    ],
+    "reference_answer": "The WHO Global Influenza Surveillance and Response System (GISRS).",
+    "expected_sources": [
+      {
+        "filename": "WER-101-34-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387031",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 34 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "e1149132c665331803e658a780d8c39a078e646c7f03a61f848a8121c3ac5910"
+      }
+    ]
+  },
+  {
+    "id": "wer-20",
+    "query": "What were the global influenza, SARS-CoV-2 and RSV activity levels reported for week 33 of 2026?",
+    "expected_terms": [
+      "below 10%",
+      "SARS-CoV-2",
+      "RSV"
+    ],
+    "reference_answer": "Influenza positivity was below 10%; SARS-CoV-2 activity and RSV positivity remained low globally.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-34-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387031",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 34 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "e1149132c665331803e658a780d8c39a078e646c7f03a61f848a8121c3ac5910"
+      }
+    ]
+  },
+  {
+    "id": "wer-21",
+    "query": "Which influenza subtype predominated in Western, Southern and South-East Asia in areas with elevated positivity in week 33 of 2026?",
+    "expected_terms": [
+      "A(H1N1)pdm09"
+    ],
+    "reference_answer": "Influenza A(H1N1)pdm09.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-34-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387031",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 34 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "e1149132c665331803e658a780d8c39a078e646c7f03a61f848a8121c3ac5910"
+      }
+    ]
+  },
+  {
+    "id": "wer-22",
+    "query": "How did global influenza and SARS-CoV-2 positivity behave in week 34 of 2026?",
+    "expected_terms": [
+      "stable and low"
+    ],
+    "reference_answer": "Both remained stable and low globally.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-35-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387397",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 35 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "064bdeb1540c91409d04dd995dc660b01760a4b30291411aef4b6f2bbc2ce955"
+      }
+    ]
+  },
+  {
+    "id": "wer-23",
+    "query": "How did the proportions of influenza A and B detections compare globally in week 34 of 2026?",
+    "expected_terms": [
+      "similar proportions"
+    ],
+    "reference_answer": "Influenza A and B were detected in similar proportions.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-35-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387397",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 35 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "064bdeb1540c91409d04dd995dc660b01760a4b30291411aef4b6f2bbc2ce955"
+      }
+    ]
+  },
+  {
+    "id": "wer-24",
+    "query": "In which northern-hemisphere regions did countries exceed 30% influenza positivity in week 34 of 2026, and how many countries were involved?",
+    "expected_terms": [
+      "Western Africa",
+      "two countries",
+      "Southern Asia"
+    ],
+    "reference_answer": "One country in Western Africa and two countries in Southern Asia.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-35-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387397",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 35 [full issue]",
+        "page_number": 2,
+        "pdf_sha256": "064bdeb1540c91409d04dd995dc660b01760a4b30291411aef4b6f2bbc2ce955"
+      }
+    ]
+  },
+  {
+    "id": "wer-25",
+    "query": "How many new leprosy cases were reported globally in 2025, what was the detection rate, and how did the count compare with 2024?",
+    "expected_terms": [
+      "167 356",
+      "20.3 per million",
+      "3.1% lower"
+    ],
+    "reference_answer": "There were 167,356 new cases, corresponding to 20.3 per million population and a 3.1% decrease from 2024.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-36-37-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387595",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 36-37 [full issue]",
+        "page_number": 5,
+        "pdf_sha256": "4d5393a578427cbf29b40d64bf22d0410d05509eb7c458877985ca1d8947efb9"
+      }
+    ]
+  },
+  {
+    "id": "wer-26",
+    "query": "How many new leprosy cases among children were reported globally in 2025, and what share and rate did they represent?",
+    "expected_terms": [
+      "8344",
+      "5%",
+      "4.2 per million"
+    ],
+    "reference_answer": "WHO reported 8,344 new child cases, representing 5% of new cases and a rate of 4.2 per million children.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-36-37-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387595",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 36-37 [full issue]",
+        "page_number": 7,
+        "pdf_sha256": "4d5393a578427cbf29b40d64bf22d0410d05509eb7c458877985ca1d8947efb9"
+      }
+    ]
+  },
+  {
+    "id": "wer-27",
+    "query": "What did 2025 leprosy contact-screening reports show about participating countries, identified cases, and use of post-exposure prophylaxis?",
+    "expected_terms": [
+      "92 countries",
+      "8332",
+      "68 countries or territories"
+    ],
+    "reference_answer": "Ninety-two countries reported contact-screening data that identified 8,332 new cases; 68 countries or territories combined screening with post-exposure prophylaxis.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-36-37-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387595",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 36-37 [full issue]",
+        "page_number": 9,
+        "pdf_sha256": "4d5393a578427cbf29b40d64bf22d0410d05509eb7c458877985ca1d8947efb9"
+      }
+    ]
+  },
+  {
+    "id": "wer-28",
+    "query": "What meningitis burden did countries in the enhanced African meningitis surveillance network report for 2025?",
+    "expected_terms": [
+      "24 of the 26",
+      "21 526",
+      "971",
+      "4.5%"
+    ],
+    "reference_answer": "Twenty-four of 26 countries reported 21,526 suspected cases and 971 deaths, corresponding to a 4.5% case fatality ratio.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-38-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387694",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 38 [full issue]",
+        "page_number": 24,
+        "pdf_sha256": "07a8db627df7cc6ce0ad57ae1e72471fd686128a1a7b3c70659d4671140629cc"
+      }
+    ]
+  },
+  {
+    "id": "wer-29",
+    "query": "Across the six countries that reported confirmed human plague during 2019–2025, how many suspected and confirmed cases and deaths were reported?",
+    "expected_terms": [
+      "3847",
+      "2646",
+      "423",
+      "11.0%"
+    ],
+    "reference_answer": "The six countries accounted for 3,847 suspected cases, including 2,646 confirmed cases and 423 deaths; the case fatality ratio among suspected cases was 11.0%.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-38-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387694",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 38 [full issue]",
+        "page_number": 24,
+        "pdf_sha256": "07a8db627df7cc6ce0ad57ae1e72471fd686128a1a7b3c70659d4671140629cc"
+      }
+    ]
+  },
+  {
+    "id": "wer-30",
+    "query": "Which two countries accounted for nearly all human plague cases reported as confirmed during 2019–2025, and what proportion did they represent?",
+    "expected_terms": [
+      "Democratic Republic of the Congo",
+      "Madagascar",
+      "97.7%"
+    ],
+    "reference_answer": "The Democratic Republic of the Congo and Madagascar together accounted for 97.7% of cases reported as confirmed.",
+    "expected_sources": [
+      {
+        "filename": "WER-101-38-eng.pdf",
+        "source": "https://iris.who.int/handle/10665/387694",
+        "title": "Weekly Epidemiological Record, 2026, vol. 101, 38 [full issue]",
+        "page_number": 31,
+        "pdf_sha256": "07a8db627df7cc6ce0ad57ae1e72471fd686128a1a7b3c70659d4671140629cc"
+      }
+    ]
+  }
+]
