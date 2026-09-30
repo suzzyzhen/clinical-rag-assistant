@@ -5,10 +5,10 @@ from pathlib import Path
 
 import requests
 
-from src.data_loading.licensing import iris_license, pdf_license
+from src.data_loading.licensing import iris_license
 
 IRIS_API = "https://iris.who.int/server/api"
-WER_COLLECTION_HANDLE = "10665/2650"   # WHO WER collection handle on IRIS
+WER_COLLECTION_HANDLE = "10665/2650"  # WHO WER collection handle on IRIS
 HEADERS = {
     "User-Agent": "clinical-rag-portfolio-project/1.0 (personal, non-commercial use)",
     "Accept": "application/json",
@@ -36,12 +36,12 @@ def _get_recent_wer_items(count: int) -> list[dict]:
         f"{IRIS_API}/discover/search/objects",
         headers=HEADERS,
         params={
-            "query":   "dc.title:\"Weekly Epidemiological Record\"",
+            "query": 'dc.title:"Weekly Epidemiological Record"',
             "dsoType": "item",
-            "sort":    "dc.date.issued,DESC",
-            "page":    0,
-            "size":    count,
-            "embed":   "bundles/bitstreams",
+            "sort": "dc.date.issued,DESC",
+            "page": 0,
+            "size": count,
+            "embed": "bundles/bitstreams",
             "f.title": "Weekly Epidemiological Record,contains",
         },
         timeout=30,
@@ -50,9 +50,9 @@ def _get_recent_wer_items(count: int) -> list[dict]:
     data = resp.json()
     return (
         data.get("_embedded", {})
-            .get("searchResult", {})
-            .get("_embedded", {})
-            .get("objects", [])
+        .get("searchResult", {})
+        .get("_embedded", {})
+        .get("objects", [])
     )
 
 
@@ -61,12 +61,12 @@ def _get_recent_who_drug_information(count: int) -> list[dict]:
         f"{IRIS_API}/discover/search/objects",
         headers=HEADERS,
         params={
-            "query":   "dc.title:\"WHO Drug Information\"",
+            "query": 'dc.title:"WHO Drug Information"',
             "dsoType": "item",
-            "sort":    "dc.date.issued,DESC",
-            "page":    0,
-            "size":    count * 10,
-            "embed":   "bundles/bitstreams",
+            "sort": "dc.date.issued,DESC",
+            "page": 0,
+            "size": count * 10,
+            "embed": "bundles/bitstreams",
         },
         timeout=30,
     )
@@ -74,20 +74,22 @@ def _get_recent_who_drug_information(count: int) -> list[dict]:
     data = resp.json()
     all_items = (
         data.get("_embedded", {})
-            .get("searchResult", {})
-            .get("_embedded", {})
-            .get("objects", [])
+        .get("searchResult", {})
+        .get("_embedded", {})
+        .get("objects", [])
     )
 
     drug_info_items = [
-        item for item in all_items
-        if "who drug information" in (
+        item
+        for item in all_items
+        if "who drug information"
+        in (
             item.get("_embedded", {})
-                .get("indexableObject", {})
-                .get("metadata", {})
-                .get("dc.title", [{}])[0]
-                .get("value", "")
-                .lower()
+            .get("indexableObject", {})
+            .get("metadata", {})
+            .get("dc.title", [{}])[0]
+            .get("value", "")
+            .lower()
         )
     ]
 
@@ -100,30 +102,26 @@ def _extract_english_pdf_url(item: dict) -> tuple[str | None, str | None]:
     Returns (pdf_url, filename) or (None, None) if not found."""
     bundles = (
         item.get("_embedded", {})
-            .get("indexableObject", {})
-            .get("_embedded", {})
-            .get("bundles", {})
-            .get("_embedded", {})
-            .get("bundles", [])
+        .get("indexableObject", {})
+        .get("_embedded", {})
+        .get("bundles", {})
+        .get("_embedded", {})
+        .get("bundles", [])
     )
     for bundle in bundles:
         if bundle.get("name") != "ORIGINAL":
             continue
         bitstreams = (
             bundle.get("_embedded", {})
-                  .get("bitstreams", {})
-                  .get("_embedded", {})
-                  .get("bitstreams", [])
+            .get("bitstreams", {})
+            .get("_embedded", {})
+            .get("bitstreams", [])
         )
         for bs in bitstreams:
             name = bs.get("name", "")
             # prefer the bilingual eng-fre PDF; fall back to any -eng PDF
             if re.search(r"-eng", name, re.IGNORECASE) and name.endswith(".pdf"):
-                content_url = (
-                    bs.get("_links", {})
-                      .get("content", {})
-                      .get("href")
-                )
+                content_url = bs.get("_links", {}).get("content", {}).get("href")
                 return content_url, name
 
     return None, None
@@ -139,12 +137,17 @@ def _extract_metadata(item: dict) -> dict:
         return values[0]["value"] if values else None
 
     return {
-        "title":          first_value("dc.title"),
+        "title": first_value("dc.title"),
         "published_date": first_value("dc.date.issued"),
-        "description":  first_value("dc.description.abstract"),
-        "language":       first_value("dc.language.iso"),
-        "handle":         obj.get("handle"),
-        **iris_license(metadata, f"https://iris.who.int/handle/{obj['handle']}" if obj.get("handle") else None),
+        "description": first_value("dc.description.abstract"),
+        "language": first_value("dc.language.iso"),
+        "handle": obj.get("handle"),
+        **iris_license(
+            metadata,
+            f"https://iris.who.int/handle/{obj['handle']}"
+            if obj.get("handle")
+            else None,
+        ),
     }
 
 
@@ -164,7 +167,9 @@ def _make_drug_info_filename(title: str) -> str | None:
     return f"WHO_drug_information_{year}_v{volume}_{issue}.pdf"
 
 
-def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, out_dir: str = "../../data/who") -> list[dict]:
+def download_recent_publications(
+    wer_count: int = 5, drug_info_count: int = 2, out_dir: str = "../../data/who"
+) -> list[dict]:
     """
     Downloads the `count` most recent WER issues from IRIS as English PDFs.
     Returns a manifest list matching the project's standard schema.
@@ -178,7 +183,9 @@ def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, o
     print(f"Fetching {wer_count} most recent WER items from IRIS...")
     wer_items = _get_recent_wer_items(wer_count)
 
-    print(f"Fetching {drug_info_count} most recent WHO Drug Information items from IRIS...")
+    print(
+        f"Fetching {drug_info_count} most recent WHO Drug Information items from IRIS..."
+    )
     drug_items = _get_recent_who_drug_information(drug_info_count)
 
     all_items = wer_items + drug_items
@@ -194,19 +201,27 @@ def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, o
             if renamed:
                 filename = renamed
 
-        item_url = f"https://iris.who.int/handle/{meta['handle']}" if meta.get("handle") else None
+        item_url = (
+            f"https://iris.who.int/handle/{meta['handle']}"
+            if meta.get("handle")
+            else None
+        )
 
         print(f"[{i}/{len(all_items)}] {meta.get('title')}")
 
         entry = {
-            "title":          meta.get("title"),
-            "item_url":       item_url,
-            "pdf_url":        pdf_url,
+            "title": meta.get("title"),
+            "item_url": item_url,
+            "pdf_url": pdf_url,
             "published_date": meta.get("published_date"),
-            "description":    meta.get("description"),
-            "language":       meta.get("language"),
-            "local_path":     None,
-            **{k: v for k, v in meta.items() if k.startswith("license")},
+            "description": meta.get("description"),
+            "language": meta.get("language"),
+            "local_path": None,
+            "license": (
+                meta.get("license")
+                if meta.get("license_detection") == "explicit"
+                else None
+            ),
         }
 
         if not pdf_url:
@@ -221,11 +236,6 @@ def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, o
             resp.raise_for_status()
             local_path.write_bytes(resp.content)
             entry["local_path"] = str(local_path)
-            if entry["license_detection"] == "unknown":
-                import fitz
-
-                with fitz.open(local_path) as pdf:
-                    entry.update(pdf_license(pdf, pdf_url))
             print(f"  -> Saved to: {local_path}")
         except requests.RequestException as e:
             print(f"  ! Download failed: {e}")
@@ -235,7 +245,9 @@ def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, o
             time.sleep(REQUEST_DELAY_SECONDS)
 
     manifest_path = out_path / "manifest_iris.json"
-    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
+    manifest_path.write_text(
+        json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
     print(f"\nManifest written to {manifest_path}")
 
     return manifest

@@ -98,5 +98,2345 @@
     "language": "en",
     "local_path": null,
     "license": null
+  },
+  {
+    "title": "Antimicrobial resistance",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Antimicrobial Resistance (AMR) occurs when bacteria, viruses, fungi and parasites change over time and no longer respond to medicines making infections harder to treat and increasing the risk of disease spread, severe illness and death. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Anxiety disorders",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet about anxiety disorders, including information on symptoms, contributing factors, prevention, diagnosis, treatment, self-care and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Arsenic",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/arsenic",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on arsenic provides key facts and information on sources of exposure, health effects, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Asbestos",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/asbestos",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on asbestos and the elimination of asbestos-related diseases providing key facts and information on the problem, causes and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Assistive technology",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/assistive-technology",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on assistive technology. Assistive technology enables people to live healthy, productive, independent, and dignified lives, and to participate in education, the labour market and civic life.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Asthma",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO factsheet on asthma providing key facts, causes, reducing the burden, prevention and control.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Autism",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on autism with sections on epidemiology, causes, assessment and care, human rights and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Bacterial vaginosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/bacterial-vaginosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on bacterial vaginosis, including overview, symptoms, treatment, diagnosis and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Biodiversity",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/biodiversity",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on biodiversity as it relates to health, including key facts, threats to biodiversity, impact, climate change, health research and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Bipolar disorder",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on bipolar disorder, including key facts, symptoms and patterns, risks and protective factors, treatment and care, and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Congenital disorders",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/birth-defects",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on congenital disorders, an important cause of childhood death, chronic illness, and disability in many countries.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Blindness and vision impairment",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on blindness and visual impairment providing key facts, definitions, causes, who is at risk, global and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Blood safety and availability",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on blood safety and availability: key facts, definition, transmission, symptoms, diagnosis, treatment, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Botulism",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/botulism",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on botulism: includes key facts, definition, symptoms, exposure, transmission, treatment, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Breast cancer",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on breast cancer, including information on prevalence, risk factors, symptoms, management, global impact and WHO's work on breast cancer.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Brucellosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/brucellosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Brucellosis is a bacterial disease caused by various Brucella species, which mainly infect cattle, swine, goats, sheep and dogs. Humans generally acquire the disease through direct contact with infected animals, by eating or drinking contaminated animal products or by inhaling airborne agents. Most cases are caused by ingesting unpasteurized milk or cheese from infected goats or sheep. \nBrucellosis is one of the most widespread zoonoses transmitted by animals and in endemic areas, human brucellosis has serious public health consequences. Expansion of animal industries and urbanization, and the lack of hygienic measures in animal husbandry and in food handling, partly account for brucellosis remaining a public health hazard.\n",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Burns",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/burns",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on burns providing key facts and information on country data, economic impact, who is at risk, prevention, first aid, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Buruli ulcer (Mycobacterium ulcerans infection)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/buruli-ulcer-(mycobacterium-ulcerans-infection)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Buruli ulcer providing key facts, definition, scope, symptoms, prevention, control, treatment, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Campylobacter",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/campylobacter",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on campylobacter: includes key facts, definition, sources, transmission, prevention, treatment, WHO response to campylobacter.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Cancer",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on cancer providing information on the health burden of different types of cancer, causes, risk factors, prevention, early diagnosis, treatment, palliative care, and WHO's work in this area.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Childhood cancer",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/cancer-in-children",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Cancer is a leading cause of death for children and adolescents worldwide.  In high-income countries more than 80% of children with cancer are cured, but in many lower-middle-income countries only 30% are cured.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Candidiasis (yeast infection)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/candidiasis-(yeast-infection)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on candidiasis, including key facts, yeast infections, oral thrush, invasive candidiasis, causes, symptoms, treatment, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Cardiovascular diseases (CVDs)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO cardiovascular diseases fact sheet providing key facts and information on risk factors, symptoms, rheumatic heart disease, treatment and prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Cervical cancer",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on cervical cancer, including key facts, causes, prevention and WHO response.\r\n",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Chagas disease (also known as American trypanosomiasis)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/chagas-disease-(american-trypanosomiasis)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Chagas disease: Chagas disease, also known as American trypanosomiasis, is a potentially life-threatening illness caused by the protozoan parasite, <i>Trypanosoma cruzi</i> (T. cruzi). The fact sheet includes key facts, and information on signs and symptoms, transmission, treatment, control and prevention, and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Chikungunya",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/chikungunya",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Chikungunya: WHO fact sheet on Chikungunya providing key facts and information on scope of the problem, who is at risk, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Child maltreatment",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/child-maltreatment",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on child maltreatment providing key facts and information on the scope of the problem, consequences, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Child mortality (under 5 years)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/child-mortality-under-5-years",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet with data and trends on under-5 mortality.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Child mortality (under 5 years)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/children-new-threats-to-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet with data and trends on under-5 mortality.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Child mortality (under 5 years)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/children-reducing-mortality",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet with data and trends on under-5 mortality.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Chlamydia",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/chlamydia",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on chlamydia, including symptoms, treatments, prevention and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Cholera",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/cholera",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on cholera: includes cholera key facts, definition, symptoms, history, risk factors, prevention, control, treatment, travel and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Chromoblastomycosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/chromoblastomycosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on chromoblastomycosis, including key facts, signs and symptoms, transmission, treatment and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Chronic obstructive pulmonary disease (COPD)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on chronic obstructive pulmonary disease (COPD) provides key facts and information on symptoms, diagnosis and treatment, risk factors and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Civil registration and vital statistics",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/civil-registration-and-vital-statistics",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on civil registration and vital statistics providing key facts and information on definition, reasons for importance, barriers, measures for low-income countries.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Climate change",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on climate change and health: provides key facts, patterns of infection, measuring health effects and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Heat and health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Protecting health from rising temperatures and extreme heat – WHO factsheet on heat and health.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Colorectal cancer",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/colorectal-cancer",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on colorectal cancer, including risk factors, symptoms, treatments and prevention.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Commercial determinants of health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/commercial-determinants-of-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Commercial determinants of health are the conditions, actions and omissions by corporate actors that affect health. Commercial determinants arise in the context of the provision of goods or services for payment and include commercial activities, as well as the environment in which commerce takes place. They can have beneficial or detrimental impacts on health.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Community-based health insurance",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/community-based-health-insurance-CBHI",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Comprehensive sexuality education",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fac sheet on comprehensive sexual education (CSE) providing key facts, guiding framework, why CSE matters, what the evidence shows, and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Condoms",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Condoms, when used correctly and consistently, are safe and highly effective in preventing unwanted pregnancies and sexually transmitted infections, including HIV. They are the only contraceptive method that can prevent both pregnancy and sexually transmitted infections (STIs), as well as being safe, inexpensive and widely available.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Coronavirus disease (COVID-19)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/coronavirus-disease-(covid-19)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on COVID-19, including information on symptoms, transmission, treatment, prevention, vaccines and and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Corporal punishment of children and health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on corporal punishment of children providing key facts and information on the scope of the problem, risk factors, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Crimean-Congo haemorrhagic fever",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/crimean-congo-haemorrhagic-fever",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Crimean-Congo haemorrhagic fever: includes key facts, definition, signs and symptoms, transmission, diagnosis, treatment, prevention and control, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Deafness and hearing loss",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Deafness and hearing loss fact sheet from WHO: providing key facts and information on causes, impact, prevention, identification, management and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Deliberate events",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/deliberate-events",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Dementia",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on dementia providing key facts and information on signs and symptoms, rates, risk factors, social and economic impacts, human rights, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Dengue",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on dengue, providing information on symptoms, diagnostics and treatment, global burden, transmission, risk factors, prevention and control and WHO's work in this area.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Depressive disorder (depression)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on depression, providing information on prevalence, symptoms, prevention and contributing factors, diagnosis and treatment, and WHO's work in the area.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Diabetes",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Diabetes factsheet from WHO providing key facts and information on types of diabetes, symptoms, common consequences, economic impact, diagnosis and treatment, WHO response. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Diarrhoeal disease",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on diarrhoeal disease provides key facts and information on scope, causes, prevention and treatment, and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Dioxins",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/dioxins-and-their-effects-on-human-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on dioxins and their effects on human health: includes key facts, definition, sources, contamination incidents, control, reduction of risk, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Diphtheria",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/diphtheria",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on diphtheria, including key facts, symptoms, treatment, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Disability",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on disability and health provides key facts and information on unmet needs for health care, secondary conditions, how lives of disabled people affected, barriers to health care and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Dracunculiasis (Guinea-worm disease)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/dracunculiasis-(guinea-worm-disease)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on dracunculiasis (guinea-worm disease):  dracunculiasis is transmitted when people swallow water contaminated with parasite-infected water-fleas (cyclops). Includes key facts, scope of problem, transformation, prevention, eradication, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Drinking-water",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/drinking-water",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on water: key facts, access to water, water and health",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Drowning",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on drowning with key facts and information on the scope of the problem, who is at risk, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Dyslipidaemia",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/dyslipidaemia",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "E. coli",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/e-coli",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Enterohaemorrhagic Escherichia coli (EHEC): includes key facts, definition, symptoms, sources, transmission, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Ebola disease",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/ebola-disease",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Ebola: key facts, definition, transmission, symptoms, diagnosis, treatment, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Echinococcosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/echinococcosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheet on echinococcus providing key facts, definition, information on transmission, signs and symptoms, distribution, diagnosis, treatment, health and economic burden, prevention and control and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "El Niño Southern Oscillation (ENSO)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/el-nino-southern-oscillation-(enso)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on the El Niño Southern Oscillation (ENSO), including key facts, health impacts and preparedness, and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Electricity in health-care facilities",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/electricity-in-health-care-facilities",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Electricity is needed to power the most basic services in health-care facilities, from lighting and communications to clean water supply. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Electronic waste (e-waste)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "E-waste is one of the fastest growing solid waste streams in the world. In 2022, an estimated 62 million tonnes of e-waste were produced globally, but less than a quarter was recycled appropriately. When recycled using unsound, informal activities e-waste can produce many hazardous toxicants that may pollute the air, soil, water and dust. These hazardous toxicants include lead, mercury and dioxins, chemicals that are known to have adverse health effects. Children and pregnant women are particularly vulnerable to e-waste. WHO is working to raise awareness of the risks of informal e-waste recycling activities, and methods to reduce and prevent childhood exposure. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Emergency contraception",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on emergency contraception: includes key facts, definition, situation, methods, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Endometriosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/endometriosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on endometriosis ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Epilepsy",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on epilepsy, a chronic noncommunicable disorder of the brain that affects people of all ages. The fact sheet includes key facts, signs and symptoms, causes, treatment, prevention,social and economic impacts, human rights and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Essential medicines",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/essential-medicines",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on essential medicines and the WHO Essential Medicines List (EML), including key facts, impact, challenges, history, update process and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Falls",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on falls providing key facts and information on\r\nscope of the problem, who is at risk, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Family planning/contraception methods",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/family-planning-contraception",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheet on family planning providing key facts and information on benefits of family planning, who provides family planning, contraceptive use, unmet need, contraceptive methods and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Female genital mutilation",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/female-genital-mutilation",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on female genital mutilation provides key facts and information on procedures, who is at risk, cultural and social causes, and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Food additives",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/food-additives",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Food additives can be derived from plants, animals, or minerals, or they can be synthetic. They are added intentionally to food to perform certain technological purposes which consumers often take for granted. There are several thousand food additives used, all of which are designed to do a specific job in making food safer or more appealing. WHO, together with FAO, groups food additives into 3 broad categories based on their function.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Food safety",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/food-safety",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Food safety fact sheet provides key facts and information on major foodborne illnesses, causes, evolving world and food safety and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Foodborne trematode infections",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/foodborne-trematode-infections",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on foodborne trematodiases providing key facts and information on transmission, epidemiology, symptoms, prevention and control, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Fragility fractures",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/fragility-fractures",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Free health care policies",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/free-health-care-policies",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Gambling",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/gambling",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on gambling, including key facts, scope of the problem, symptoms, prevention, treatment and WHO response. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Gonorrhoea (Neisseria gonorrhoeae infection)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/gonorrhoea-(neisseria-gonorrhoeae-infection)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on gonorrhoea, including symptoms, treatment, prevention and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Group B Streptococcus (GBS)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/group-b-streptococcus-(gbs)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Group B Streptococcus including information on groups at risk, transmission, signs and symptoms, prevention, treatment and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Guillain–Barré syndrome",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/guillain-barré-syndrome",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Guillain-Barré syndrome. Includes sections on symptoms, causes, diagnosis, treatment and care and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Hantavirus",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/hantavirus",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on hantaviruses provides key facts and information on transmission, symptoms, diagnosis, treatment, prevention and control, and public health response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Migraine and other headache disorders",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/headache-disorders",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on migraine and other headache disorders. It includes sections on prevalence, ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Health-care waste",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/health-care-waste",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on healthcare waste, including key facts, types of waste, health risks, environmental impact and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Health literacy",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/health-literacy",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on health literacy, including key facts, overview, existing inequalities, the importance and social benefits of health literacy, and WHO's response. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Healthy diet",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on healthy diet with key facts and information on essential dietary elements, practical advice, salt, sodium and potassium, sugars, health diet promotion, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Heart attack",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/heart-attack",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on heart attack, including key facts, symptoms, causes and risk factors, treatment, prevention and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Hepatitis A",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-a",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on hepatitis A provides key facts and information on transmission, who is at risk, treatment, prevention, immunization and WHO's work in this area.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Hepatitis B",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic disease. This fact sheet provides information about transmission, symptoms, diagnosis, treatment, prevention and WHO's work to support prevention and treatment. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Hepatitis C",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-c",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on hepatitis C, how it is transmitted, symptoms, prevention, testing and diagnosis, treatment and WHO activities. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Hepatitis D",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-d",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet including information on transmission, symptoms, prevention, diagnosis, treatment and WHO activities. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Hepatitis E",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-e",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on hepatitis E, how it is transmitted, symptoms, prevention, testing and diagnosis, treatment and WHO activities.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Herpes simplex virus",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Herpes simplex virus fact sheet with key facts and information on type 1 (HSV-1) and type 2 (HSV-2): signs and symptoms, transmission, challenges, treatment,  global impact and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "HIV and AIDS",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on HIV and AIDS with key facts and information on signs and symptoms, transmission, risk factors, testing and counselling, prevention, treatment and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "HIV drug resistance",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/hiv-drug-resistance",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on HIV drug resistance providing key facts and information on determinants, strategies and interventions, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Household air pollution",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on indoor air pollution: includes key facts, definition, impact on health, impact on health equity, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Human papillomavirus and cancer",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on human papilloma virus and cancer, including overview, scope of the problem, symptoms, treatment, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Human rights",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/human-rights-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on health and human rights with key facts, introduction, disadvantaged populations and the right to health, violations of human rights and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Human T-lymphotropic virus-1",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/human-t-lymphotropic-virus-type-1",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on human T-lymphotropic virus type 1 (HTLV-1), including symptoms, treatment, prevention and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Hypertension",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on hypertension including information on prevalence, risk factors, symptoms, prevention, treatment and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "ICD-11",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/icd-11",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Immunization coverage",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/immunization-coverage",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheet from WHO on immunization coverage: provides key facts and information about recommended vaccines, key challenges and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Infant and young child feeding",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on infant and young child feeding providing key facts, breastfeeding, complementary feeding, feeding in difficult circumstances, HIV and infant feeding, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Infertility",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/infertility",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on infertility, including key facts, causes, strategies and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Influenza (avian and other zoonotic)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on avian influenza: includes key facts, definition, clinical features, antiviral treatment, risk factors for human infection, human pandemic potential, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Influenza (seasonal)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on influenza: includes key facts, definition, symptoms, transmission, seasonal epidemics, effects, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Injuries and violence",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/injuries-and-violence",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Intrauterine devices (IUDs)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/intrauterine-devices",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Intrauterine devices (IUDs) fact sheet from WHO providing key facts and information on causes, health consequences, double burden of disease, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Ionizing radiation and health effects",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/ionizing-radiation-and-health-effects",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on ionizing radiation, health effects and protective measures: includes key facts, definition, sources, type of exposure, \r\nhealth effects, nuclear emergencies, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Japanese encephalitis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/japanese-encephalitis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Japanese encephalitis (JE) is the most important cause of viral encephalitis in Asia. It is a mosquito-borne flavivirus, meaning it is related to dengue, yellow fever and West Nile viruses. WHO recommends having strong prevention and control activities, including JE immunization in all regions where the disease is a recognized public health problem.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Kidney disease",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/kidney-disease",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on kidney diseases including information on different types, symptoms, treatment and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Lassa fever",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/lassa-fever",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Lassa fever is an acute viral haemorrhagic illness of 1–4 weeks duration that occurs in west Africa.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Lead poisoning",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on lead poisoning including sections on sources and routes of exposure, health effects in childen, burden of disease and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Legionellosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/legionellosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Legionellosis fact sheet provides key facts and information on cause, transmission, extent of disease, symptoms and response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Leishmaniasis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/leishmaniasis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Leishmaniasis fact sheet from WHO: provides key facts, definition, information on transmission, risk factors, diagnosis and treatment, prevention and control and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Leprosy",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/leprosy",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Leprosy, also known as Hansen disease, is a chronic infectious disease caused mainly by a type of bacteria called Mycobacterium leprae. The disease affects the skin, the peripheral nerves, the mucosa of the upper respiratory tract and the eyes. Apart from the physical deformity, persons affected by leprosy also face stigmatization and discrimination. However, leprosy is curable and treatment in the early stages can prevent disability.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Listeriosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/listeriosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Low back pain",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/low-back-pain",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Low back pain (LBP) describes pain between the lower edge of the ribs and the buttock. It can affect anyone. LBP makes it hard to move and can affect quality of life and mental well-being. It can limit work activities and engagement with family and friends. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Lung cancer",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/lung-cancer",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet providing information on ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Lymphatic filariasis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/lymphatic-filariasis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on lymphatic filariasis providing key facts, definition, information on cause, transmission, symptoms, treatment and prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Malaria",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on malaria providing key facts, definition, information on transmission, symptoms, who is at risk, diagnosis, treatment, prevention, insecticide resistance, surveillance, elimination, vaccines and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Malnutrition",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/malnutrition",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Malnutrition refers to deficiencies, excesses, or imbalances in a person’s intake of energy and/or nutrients. The term malnutrition addresses 3 broad groups of conditions: undernutrition, which includes wasting (low weight-for-height), stunting (low height-for-age) and underweight (low weight-for-age); micronutrient-related malnutrition, which includes micronutrient deficiencies (a lack of important vitamins and minerals) or micronutrient excess; and overweight, obesity and diet-related noncommunicable diseases (such as heart disease, stroke, diabetes and some cancers).",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Marburg virus disease",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/marburg-virus-disease",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Marburg haemorrhagic fever provides information on transmission, signs and symptoms, diagnosis, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Maternal mortality",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on maternal mortality with key facts and providing information on MDG 4, where deaths occur, causes, lack of care and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Measles",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on measles providing key facts and information on signs and symptoms, who is at risk, transmission, treatment, prevention and WHO's work on in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Meningitis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/meningitis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on meningitis provides key facts and information on transmission, symptoms, diagnosis, treatment, prevention, outbreaks trends and public health response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Menopause",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "This fact sheet explains when and how menopause occurs, changes that are associated with menopause, related public health challenges and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Menstrual health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/menstrual-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on menstrual health provides key facts and information on symptoms, scope, education and response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Mental disorders",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on mental disorders, including sections on anxiety disorders, depression, bipolar disorder, Post-Traumatic Stress Disorder, schizophrenia, eating disorders, disruptive behaviour and dissocial disorders, neurodevelopmental disorders, risk factors, health systems and social support, as well as WHO's work in these areas. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Mental health at work",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "All workers have the right to a safe and healthy environment at work. There are effective actions to prevent mental health risks and support workers with mental health conditions.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Mental health in emergencies",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-in-emergencies",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on mental health in emergencies: key facts, background, impact of emergencies, symptoms and WHO response",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Mental health of older adults",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheet on mental health and older adults covering prevalence, risk factors, prevention and promotion, treatment and care, and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Mental health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on mental health providing key facts and information on determinants, strategies and interventions, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Mercury",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/mercury-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on mercury and health: includes key facts, definitions, exposure, health effects, measures to reduce exposure, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Middle East respiratory syndrome coronavirus (MERS-CoV)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/middle-east-respiratory-syndrome-coronavirus-(mers-cov)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Middle East respiratory syndrome (MERS) is a viral respiratory disease caused by a novel coronavirus (MERS‐CoV) that was first identified in Saudi Arabia in 2012.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Millennium Development Goals (MDGs)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/millennium-development-goals-(mdgs)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Millennium Development Goals (MDGs) providing key facts and information on progress on the eight goals and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Mpox",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/mpox",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on mpox: includes key facts, definition, outbreaks, transmission, symptoms, diagnosis, treatment, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Multi-drug resistant gonorrhoea",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/multi-drug-resistant-gonorrhoea",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on multi-drug resistant gonorrhoea, including its history, causes and implications, and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Multiple sclerosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/multiple-sclerosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Musculoskeletal health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Mycetoma",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/mycetoma",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Mycetoma is a chronic disease usually of the foot but any part of the body can be affected. Infection is most probably acquired by traumatic inoculation of certain fungi or ‎bacteria into the subcutaneous tissue. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Mycotoxins",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/mycotoxins",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Natural toxins in food",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/natural-toxins-in-food",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Newborn mortality",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/newborn-mortality",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on newborn mortality, including key facts, causes, priority strategies, newborn care and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Newborn mortality",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/newborns-reducing-mortality",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on newborn mortality, including key facts, causes, priority strategies, newborn care and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Nipah virus",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/nipah-virus",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Nipah virus, including information on transmission, signs and symptoms, diagnosis, treatment, prevention and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Noma",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/noma",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on noma, including key facts, scope of the problem, risk factors, diagnosis, treatment and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Noncommunicable diseases",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Noncommunicable diseases (NCDs), also known as chronic diseases, are not passed from person to person. They are of long duration and generally slow progression. The four main types of noncommunicable diseases are cardiovascular diseases (like heart attacks and stroke), cancers, chronic respiratory diseases (such as chronic obstructive pulmonary disease and asthma) and diabetes.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Nursing and midwifery",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/nursing-and-midwifery",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on nursing and midwifery, including key facts, jobs and employment, education, service delivery and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Obesity and overweight",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Obesity and overweight fact sheet from WHO providing key facts and information on causes, health consequences, double burden of disease, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Older children and young adolescent mortality (5 to 14 years)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/older-children-and-young-adolescent-mortality-(5-to-14-years)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Onchocerciasis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/onchocerciasis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Onchocerciasis – or “river blindness” – is a parasitic disease caused by the filarial worm Onchocerca volvulus. It is transmitted through the bites of infected blackflies (Simulium spp.) that breed in fast-flowing rivers and streams, mostly in remote villages located near fertile land where people rely on agriculture.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "One Health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/one-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheet about One Health, an approach to optimizing the health of humans, animals, plants and ecosystems by integrating these fields, rather than keeping them separate. The fact sheet includes an overview and sections on the scope of the problem, challenges and WHO's work in this area. \r\n",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Opioid overdose",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/opioid-overdose",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "The term “opioids” includes compounds that are extracted from the poppy seed as well as semisynthetic and synthetic compounds that can interact with opioid receptors in the brain. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Oral contraceptives",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/oral-contraceptives",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "A fact sheet on oral contraceptives which provides detail on their effectiveness, health benefits and risks and side effects as well as WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Oral health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/oral-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Oropouche virus disease",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/oropouche-virus-disease",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Osteoarthritis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/osteoarthritis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on osteoarthritis including signs and symptoms, causes, treatments and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Palliative care",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/palliative-care",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Los cuidados paliativos constituyen un planteamiento que mejora la calidad de vida de los pacientes (adultos y niños) y sus allegados cuando afrontan problemas inherentes a una  enfermedad potencialmente mortal.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Parkinson disease",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/parkinson-disease",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Parkinson disease (PD) is a degenerative condition of the brain associated with motor symptoms (slow movement, tremor, rigidity, walking and imbalance) and a wide variety of non-motor complications (cognitive impairment, mental health disorders, sleep disorders and pain and other sensory disturbances). ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Patient safety",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on patient safety, including key facts, common sources of patient harm, factors leading to patient harm, system approach to patient safety, and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Pesticide residues in food",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Physical activity",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on physical activity provides key facts and information on benefits, risks of inactivity, reasons for physical inactivity and how to increase physical activity, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Plague",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/plague",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheets on plague: key facts, signs and symptoms, diagnosing, treatment and prevention",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Pneumonia in children",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/pneumonia",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on pneumonia in children provides key facts and information on causes, presenting features, economic costs, treatment, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Podoconiosis (non-filarial lymphoedema)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/podoconiosis-(non-filarial-lymphoedema)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on podoconiosis, including definitions, signs and symptoms, causes, treatments and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Poliomyelitis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/poliomyelitis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on poliomyelitis, a highly infectious disease caused by a virus. The fact sheet includes key facts, global caseload, Global Eradication Initiative, progress, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Polycystic ovary syndrome",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on polycystic ovary syndrome (PCOS) including symptoms, treatments, diagnosis.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Post COVID-19 condition (long COVID)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/post-covid-19-condition-(long-covid)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on post COVID-19 condition (long COVID), including key facts, scope of the problem, symptoms, treatment, self-care and prevention.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Post-traumatic stress disorder",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/post-traumatic-stress-disorder",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on post-traumatic stress disorder, including key facts, symptoms, treatments, self-care and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Pre-eclampsia",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on pre-eclampsia, including key facts, risk factors, symptoms, complications, treatment, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Prequalification of health products",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/prequalification-of-medicines-by-who",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Each year, United Nations (UN) agencies, international procurement agencies and nongovernmental organizations (NGOs), as well as Member States, purchase billions of US dollars’ worth of health products to deliver to people in resource-limited countries and humanitarian crisis settings. To help ensure these products are safe, effective and meet stringent quality standards, WHO established the Prequalification Programme (PQP). This initiative supports procurement agencies and countries in making informed decisions, enabling them to confidently purchase large quantities of quality-assured products from vetted manufacturers.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Preterm birth",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/preterm-birth",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on preterm birth providing key facts and information on solution, geographical distribution and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Primary health care",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/primary-health-care",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Quality health services",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/quality-health-services",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes and are consistent with evidence-based professional knowledge.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Rabies",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on rabies, providing key facts and information on symptoms, diagnosis, transmission, post-exposure prophylaxis, local treatment, prevention, WHO response",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Radon",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/radon-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on radon and cancer: includes key facts, definition, health effects, radon in homes, radon in drinking water, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Refugee and migrant health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/refugee-and-migrant-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "More people are on the move now than ever before, and displacement and migration continue to rise. Yet many refugees and migrants face poorer health outcomes than the host populations. Many face constraints in accessing health care. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Refugee and migrant mental health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/refugee-and-migrant-mental-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on refugee and migrant mental health, including info on stressors, riks and protective factors, prevalence of mental health conditions, policy considerations and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Rehabilitation",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/rehabilitation",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Rehabilitation is a set of interventions needed when a person is experiencing or is likely to experience limitations in everyday functioning due to ageing or a health condition, including chronic diseases or disorders, injuries or traumas.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Respiratory syncytial virus (RSV)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/respiratory-syncytial-virus-(rsv)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on respiratory syncytial virus (RSV), including key facts, scope of the problem, transmission, symptoms, treatment and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Rheumatic heart disease",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on rheumatic heart disease, including key facts, risk factors, symptoms, treatment, prevention, public health challenges and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Rheumatoid arthritis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on rheumatoid arthritis including signs and symptoms, causes, treatments and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Rift Valley fever",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Rift Valley fever",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Ringworm (tinea)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/ringworm-(tinea)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Road traffic injuries",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on road traffic injuries providing key facts and information on who is at risk, drink driving, motor cycle helmets, seat belts and child restraints, and WHO response. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Rubella",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/rubella",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on rubella: includes key facts, definition, symptoms, congenital rubella syndrome, vaccination, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Salmonella (non-typhoidal)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/salmonella-(non-typhoidal)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheet on salmonella providing key facts and information on sources and transmission, prevention, treatment, recommendations to travellers, food handlers, food producers and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Sand and dust storms",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/sand-and-dust-storms",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on sand and dust storms, including key facts, health impacts, how to address health effects, and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Sanitation",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/sanitation",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Sanitation fact sheet provides key facts and information on\r\nbenefits of improving sanitation, challenges and WHO response",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Scabies",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/scabies",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Human scabies is a parasitic infestation caused by Sarcoptes scabiei var hominis. The microscopic mite burrows into the skin and lays eggs, eventually triggering a host immune response that leads to intense itching and rash. Scabies infestation may be complicated by bacterial infection, leading to the development of skin sores that, in turn, may lead to the development of more serious consequences such as septicaemia, heart disease and chronic kidney disease. In 2017, scabies and other ectoparasites were included as Neglected Tropical Diseases (NTDs), in response to requests from Member States and the recommendations of the WHO Strategic and Technical Advisory Group for NTDs.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Schistosomiasis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/schistosomiasis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Schistosomiasis fact sheet from WHO providing key facts and information on transmission, epidemiology, symptoms, diagnosis, prevention and control, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Schizophrenia",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/schizophrenia",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on schizophrenia, including key facts, symptoms, causes, services and management and what WHO is doing in this area.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Self-care for health and well-being",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/self-care-health-interventions",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO defines self-care is the ability of individuals, families and communities to promote and maintain health, prevent disease, and to cope with illness and disability with or without the support of a health worker.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Sepsis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/sepsis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Sexually transmitted infections (STIs)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on sexually transmitted diseases (STIs), providing information on the scope of the problem, prevention, diagnosis, treatment, and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Shingles (herpes zoster)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/shingles-(herpes-zoster)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on shingles (herpes zoster), including key facts, risk factors, symptoms, transmission, diagnosis, treatment and WHO response. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Sickle-cell disease",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/sickle-cell-disease",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on sick-cell disease, including information on causes and risk factors, symptoms, diagnosis, treatment, prevention and management and WHO's work on the disease. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Snakebite envenoming",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on snake antivenoms with key facts and providing information on global situation, challenges producing antivenoms, weak health systems and lack of data and WHO action.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Social determinants of health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/social-determinants-of-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on social determinants of health including key facts, non-medical aspects of health, health inequities and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Sodium reduction",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/sodium-reduction",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheet on sodium reduction: key facts, overview, recommendations, actions and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Soil-transmitted helminth infections",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on soil-transmitted helminth infections caused by different species of parasitic worm. Includes key facts, definition, distribution, transmission, control and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Spinal cord injury",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/spinal-cord-injury",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on spinal cord injury provides key facts, understanding, demographic trends, mortality, health economic consequences, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Sporotrichosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/sporotrichosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on sporotrichosis, including key facts, symptoms, prevention, treatment and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Stroke",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/stroke",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO stroke fact sheet providing key facts and information on risk factors, symptoms, treatment and prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Substandard and falsified medical products",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/substandard-and-falsified-medical-products",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on substandard and falsified medical products, including key facts, scope of the problem, impacts, challenges and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Sugars and dental caries",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on sugars and dental caries, including information on risk factors, prevention and control, challenges and WHO's work in this area. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Suicide",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/suicide",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Every year more than 700 000 people take their own life and there are many more people who attempt suicide.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Syphilis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/syphilis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on syphilis, including overview, symptoms, treatment, prevention and WHO response. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Taeniasis/cysticercosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/taeniasis-cysticercosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Taeniasis/cysticercosis fact sheet: provides key facts and information on transmission, symptoms, treatment, prevention and control and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Tetanus",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/tetanus",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on tetanus, including overview, ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "The top 10 causes of death",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO act sheet on the 10 leading causes of death. In 2023, the 10 leading causes of death accounted for 33 million deaths, or 54% of the total 61 million deaths worldwide.\r\n\r\nThe top global causes of death, in order of total number of lives lost, are associated with two broad topics: cardiovascular (ischaemic heart disease, stroke) and respiratory (chronic obstructive pulmonary disease, lower respiratory infections), with COVID-19 dropping out of the 10 leading causes of deaths globally for the first time since the start of the COVID-19 pandemic in 2020.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Tobacco and nicotine",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/tobacco",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Tobacco fact sheet from WHO providing key facts and information on surveillance, second-hand smoke, quitting, picture warnings, ad bans, taxes, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Trachoma",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/trachoma",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheet on trachoma, with key facts, clinical characteristics and morbidity, distribution, economic impact, prevention and control, and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Trans fat",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/trans-fat",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on trans fat, including key facts, how to reduce trans fat intake, and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Trichomoniasis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/trichomoniasis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on trichomoniasis, including overview, symptoms, diagnosis, treatment and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Trypanosomiasis, human African (sleeping sickness)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/trypanosomiasis-human-african-(sleeping-sickness)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Human African trypanosomiasis, also known as sleeping sickness, a vector-borne parasitic disease. it provides key facts, distribution of the disease, diagnosis, treatment and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Tuberculosis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on tuberculosis (TB): includes key facts, definition, global impact, treatment, HIV and TB, multidrug-resistant TB and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Tungiasis",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/tungiasis",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on Tungiasis providing key facts, definition, scope, symptoms, prevention, control, treatment, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Typhoid",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/typhoid",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Typhoid fever is a life-threatening infection caused by the bacterium Salmonella Typhi. It is usually spread through contaminated food or water. Once Salmonella Typhi bacteria are ingested, they multiply and spread into the bloodstream.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Ultraviolet radiation",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation",
+    "pdf_url": null,
+    "published_date": null,
+    "description": null,
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Universal health coverage (UHC)",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/universal-health-coverage-(uhc)",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Fact sheet on universal health coverage (UHC), including progress towards SDG indicators and recommendations for further progress. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Urban health",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/urban-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on urban health, including aspects such as noncommunicable and infectious diseases, injuries, climate change, health inequities and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Vector-borne diseases",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/vector-borne-diseases",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on vector-borne diseases, including key facts, overview, and WHO response. \r\n\r\nVector-borne diseases are illnesses caused by pathogens and parasites in human populations. WHO works with partners to provide education and improve awareness so that people know how to protect themselves and their communities from mosquitoes, ticks, bugs, flies and other vectors.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Violence against children",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-children",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on violence against children provides key facts and information on types of violence, impact, risk factors, prevention and response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Violence against women",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on violence against women providing key facts and information on the scope of the problem, health consequences, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "West Nile virus",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/west-nile-virus",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on West Nile virus: includes key facts, definition, outbreaks, transmission, diagnosis, treatment, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "White phosphorus",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/white-phosphorus",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on white phosphorus, including key facts, effects of exposure, management of exposure, international treaties and WHO's response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Wildfires",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/wildfires-and-health",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on wildfires, including climate change, air pollution, health effects, populations at risk and WHO response. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Yaws",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/yaws",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on yaws, a neglected tropical disease that affects the skin, bone and cartilage. Includes key facts, definition, scope of the problem, signs and symptoms, treatment, prevention and WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Yellow fever",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/yellow-fever",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet about yellow fever, an acute viral haemorrhagic disease transmitted by infected mosquitoes. It provides key facts and information on signs and symptoms, populations at risk, transmission, treatment, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Youth violence",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/youth-violence",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "WHO fact sheet on youth violence providing key facts and information on the scope of the problem, risk factors, prevention, WHO response.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Zika virus",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/zika-virus",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "Zika virus is a mosquito-borne virus that was first identified in Uganda in 1947 in a Rhesus macaque monkey, followed by evidence of infection and disease in humans in other African countries in the 1950s.",
+    "language": "en",
+    "local_path": null,
+    "license": null
+  },
+  {
+    "title": "Zoonoses",
+    "item_url": "https://www.who.int/news-room/fact-sheets/detail/zoonoses",
+    "pdf_url": null,
+    "published_date": null,
+    "description": "A zoonosis is an infectious disease that has jumped from a non-human animal to humans. Zoonotic pathogens may be bacterial, viral or parasitic, or may involve unconventional agents and can spread to humans through direct contact or through food, water or the environment. They represent a major public health problem around the world due to our close relationship with animals in agriculture, as companions and in the natural environment. Zoonoses can also cause disruptions in the production and trade of animal products for food and other uses. \r\n\r\nZoonoses comprise a large percentage of all newly identified infectious diseases as well as many existing ones. Some diseases, such as HIV, begin as a zoonosis but later mutate into human-only strains. Other zoonoses can cause recurring disease outbreaks, such as Ebola virus disease and salmonellosis. Still others, such as the novel coronavirus that causes COVID-19, have the potential to cause global pandemics. ",
+    "language": "en",
+    "local_path": null,
+    "license": null
   }
 ]

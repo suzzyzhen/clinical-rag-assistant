@@ -1,13 +1,26 @@
 import hashlib
+import json
 from pathlib import Path
 from typing import Optional
 
 import fitz
 import pdfplumber
 from langchain_core.documents import Document
-import json
 
 from src.data_loading.licensing import pdf_license
+
+
+def _compact_manifest_entry(entry: dict) -> dict:
+    """Keep one conservative licence value in persisted source metadata."""
+    detection = entry.get("license_detection")
+    compact = {
+        key: value for key, value in entry.items() if not key.startswith("license_")
+    }
+    if detection is not None and detection != "explicit":
+        compact["license"] = None
+    else:
+        compact.setdefault("license", None)
+    return compact
 
 
 def _make_document_id(source: str) -> str:
@@ -43,8 +56,8 @@ def _extract_page_content(fitz_page, plumber_page) -> str:
     tables = plumber_page.find_tables()
     table_bboxes = [table.bbox for table in tables]
     table_texts = [
-        text for text in
-        (_format_table(t) for t in plumber_page.extract_tables())
+        text
+        for text in (_format_table(t) for t in plumber_page.extract_tables())
         if text.strip()
     ]
 
@@ -54,7 +67,8 @@ def _extract_page_content(fitz_page, plumber_page) -> str:
     else:
         blocks = fitz_page.get_text("blocks")
         prose = "\n".join(
-            block[4] for block in blocks
+            block[4]
+            for block in blocks
             if not any(
                 fitz.Rect(block[:4]).intersects(fitz.Rect(bbox))
                 for bbox in table_bboxes
@@ -76,7 +90,7 @@ def load_pdf(
     title: Optional[str] = None,
     url: Optional[str] = None,
     license: Optional[str] = None,
-    manifest_entry: Optional[dict] = None, 
+    manifest_entry: Optional[dict] = None,
 ) -> list[Document]:
     manifest_entry = manifest_entry or {}
     pdf_path_obj = Path(pdf_path)
@@ -87,13 +101,25 @@ def load_pdf(
     with fitz.open(pdf_path) as fitz_doc, pdfplumber.open(pdf_path) as plumber_doc:
         # pdf_metadata = fitz_doc.metadata or {}
         n_pages = len(fitz_doc)
-        if manifest_entry.get("license_evidence") and manifest_entry.get("license_detection") == "explicit":
-            rights = {k: v for k, v in manifest_entry.items() if k.startswith("license")}
+        if manifest_entry.get("license") and "license_detection" not in manifest_entry:
+            rights = {
+                "license": manifest_entry["license"],
+                "license_evidence": None,
+                "license_source": manifest_entry.get("item_url"),
+                "license_detection": "manifest",
+            }
+        elif manifest_entry.get("license_detection") == "explicit":
+            rights = {
+                key: value
+                for key, value in manifest_entry.items()
+                if key.startswith("license")
+            }
         else:
-            rights = pdf_license(fitz_doc, manifest_entry.get("pdf_url") or url or str(pdf_path_obj))
+            rights = pdf_license(
+                fitz_doc, manifest_entry.get("pdf_url") or url or str(pdf_path_obj)
+            )
         if license is not None:
             rights["license_override_requested"] = license
-        manifest_entry.update(rights)
 
         for page_num, (fitz_page, plumber_page) in enumerate(
             zip(fitz_doc, plumber_doc.pages), start=1
@@ -102,23 +128,25 @@ def load_pdf(
             if not page_content.strip():
                 continue
 
-            docs.append(Document(
-                page_content=page_content,
-                metadata={
-                    "document_id":    document_id,
-                    "source":         manifest_entry.get("item_url"),
-                    "source_type":    "pdf",
-                    "source_name":    source_name,
-                    "title":          manifest_entry.get("title"),
-                    "description":    manifest_entry.get("description"),
-                    "language":       manifest_entry.get("language"),
-                    "published_date": manifest_entry.get("published_date"),
-                    **rights,
-                    "page_number":    page_num,
-                    "n_pages":        n_pages,
-                    # "pdf_url":        manifest_entry.get("pdf_url"),
-                },
-            ))
+            docs.append(
+                Document(
+                    page_content=page_content,
+                    metadata={
+                        "document_id": document_id,
+                        "source": manifest_entry.get("item_url"),
+                        "source_type": "pdf",
+                        "source_name": source_name,
+                        "title": manifest_entry.get("title"),
+                        "description": manifest_entry.get("description"),
+                        "language": manifest_entry.get("language"),
+                        "published_date": manifest_entry.get("published_date"),
+                        **rights,
+                        "page_number": page_num,
+                        "n_pages": n_pages,
+                        # "pdf_url":        manifest_entry.get("pdf_url"),
+                    },
+                )
+            )
 
     return docs
 
@@ -137,7 +165,10 @@ def load_pdfs_from_folder(
     # Load manifest once and index by local_path filename
     manifest_index = {}
     if manifest_path and Path(manifest_path).exists():
-        entries = json.loads(Path(manifest_path).read_text(encoding="utf-8"))
+        entries = [
+            _compact_manifest_entry(entry)
+            for entry in json.loads(Path(manifest_path).read_text(encoding="utf-8"))
+        ]
         manifest_index = {
             Path(entry["local_path"]).name: entry
             for entry in entries
@@ -162,6 +193,9 @@ def load_pdfs_from_folder(
             print(f"  ! Failed to load {pdf_path.name}: {e}")
 
     if manifest_path and manifest_index:
-        Path(manifest_path).write_text(json.dumps(entries, indent=2, ensure_ascii=False), encoding="utf-8")
+        Path(manifest_path).write_text(
+            json.dumps(entries, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
     print(f"Loaded {len(docs)} page documents from {len(pdf_files)} PDFs.")
     return docs
