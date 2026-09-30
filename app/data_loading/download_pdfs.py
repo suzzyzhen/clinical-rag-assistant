@@ -12,7 +12,7 @@ HEADERS = {
     "Accept": "application/json",
 }
 REQUEST_DELAY_SECONDS = 1.0
-WHO_LICENSE = "CC BY-NC-SA 3.0 IGO"
+from app.data_loading.licensing import iris_license, pdf_license
 
 
 def _resolve_handle_to_uuid(handle: str) -> str:
@@ -143,6 +143,7 @@ def _extract_metadata(item: dict) -> dict:
         "description":  first_value("dc.description.abstract"),
         "language":       first_value("dc.language.iso"),
         "handle":         obj.get("handle"),
+        **iris_license(metadata, f"https://iris.who.int/handle/{obj['handle']}" if obj.get("handle") else None),
     }
 
 
@@ -204,7 +205,7 @@ def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, o
             "description":    meta.get("description"),
             "language":       meta.get("language"),
             "local_path":     None,
-            "license":        WHO_LICENSE,
+            **{k: v for k, v in meta.items() if k.startswith("license")},
         }
 
         if not pdf_url:
@@ -219,6 +220,11 @@ def download_recent_publications(wer_count: int = 5, drug_info_count: int = 2, o
             resp.raise_for_status()
             local_path.write_bytes(resp.content)
             entry["local_path"] = str(local_path)
+            if entry["license_detection"] == "unknown":
+                import fitz
+
+                with fitz.open(local_path) as pdf:
+                    entry.update(pdf_license(pdf, pdf_url))
             print(f"  -> Saved to: {local_path}")
         except requests.RequestException as e:
             print(f"  ! Download failed: {e}")

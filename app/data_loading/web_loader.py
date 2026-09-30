@@ -1,252 +1,283 @@
+"""Load WHO fact-sheet HTML, with an optional API loader."""
+
 import hashlib
 import json
-import random
 import re
 import time
+from datetime import datetime
 from pathlib import Path
-from typing import Optional
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
 from langchain_core.documents import Document
 
+from app.data_loading.licensing import html_license
 
-WHO_LICENSE = "CC BY-NC-SA 3.0 IGO"
+API_URL = "https://www.who.int/api/hubs/factsheets"
+PAGE_ROOT = "https://www.who.int/news-room/fact-sheets/detail/"
 DEFAULT_HEADERS = {
-    "User-Agent": "clinical-rag-portfolio-project/1.0 (personal, non-commercial use)"
+    "Accept": "application/json",
+    "User-Agent": "clinical-rag-portfolio-project/1.0 (personal, non-commercial use)",
 }
-REQUEST_DELAY_SECONDS = 1.0
 
 
-def _make_document_id(source: str) -> str:
-    """Create a stable document ID from the source URL."""
-    return hashlib.sha256(source.encode("utf-8")).hexdigest()[:16]
-
-
-def _normalize_date(date_string: Optional[str]) -> Optional[str]:
-    """
-    Normalize a date to YYYY-MM-DD.
-
-    Examples:
-        2025-10-15 -> 2025-10-15
-        15 October 2025 -> 2025-10-15
-    """
-    if not date_string:
-        return None
-
-    date_string = date_string.strip()
-
-    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", date_string):
-        return date_string
-
-    match = re.search(r"\b(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})\b", date_string)
-    if not match:
-        return None
-
-    day, month, year = match.groups()
-    months = {
-        "january": "01", "february": "02", "march": "03",
-        "april": "04",   "may": "05",      "june": "06",
-        "july": "07",    "august": "08",   "september": "09",
-        "october": "10", "november": "11", "december": "12",
-    }
-    month_number = months.get(month.lower())
-
-    if not month_number:
-        return None
-
-    return f"{year}-{month_number}-{int(day):02d}"
-
-
-def _extract_published_date(soup: BeautifulSoup) -> Optional[str]:
-    """
-    Extract publication date from a WHO fact-sheet page.
-    Resolution order:
-    1. <meta name="citation_date">
-    2. <meta name="dc.date">
-    3. <meta name="date">
-    4. First element with a class containing "date"
-    5. Regex scan of the page text for "DD Month YYYY"
-    """
-    _DATE_PATTERN = re.compile(r"\b\d{1,2} \w+ \d{4}\b")
-
-    # 1. Metadata tags
-    for meta_name in ("citation_date", "dc.date", "date"):
-        meta = soup.find("meta", attrs={"name": meta_name})
-        if meta and meta.get("content"):
-            normalized = _normalize_date(meta["content"].strip())
-            if normalized:
-                return normalized
-
-    # 2. Element whose class contains "date"
-    date_el = soup.find(class_=re.compile(r"date", re.IGNORECASE))
-    if date_el:
-        match = _DATE_PATTERN.search(date_el.get_text(strip=True))
-        if match:
-            normalized = _normalize_date(match.group(0))
-            if normalized:
-                return normalized
-
-    # 3. Fallback: scan full page text
-    match = _DATE_PATTERN.search(soup.get_text())
-    if match:
-        normalized = _normalize_date(match.group(0))
-        if normalized:
-            return normalized
-
+def _date(item):
+    for key in (
+        "FormatedDate",
+        "LocalPublicationDate",
+        "PublicationDateAndTime",
+        "PublicationDate",
+    ):
+        value = item.get(key)
+        if not value:
+            continue
+        try:
+            return (
+                datetime.fromisoformat(value.replace("Z", "+00:00")).date().isoformat()
+            )
+        except ValueError:
+            try:
+                return datetime.strptime(value.strip(), "%d %B %Y").date().isoformat()
+            except ValueError:
+                pass
     return None
 
 
-def _extract_title(soup: BeautifulSoup) -> Optional[str]:
-    """Extract the webpage title."""
-    h1 = soup.find("h1")
-    if h1:
-        title = h1.get_text(" ", strip=True)
-        if title:
-            return title
-
-    html_title = soup.find("title")
-    if html_title:
-        title = html_title.get_text(" ", strip=True)
-        if title:
-            return title
-
-    return None
-
-
-def _extract_description(soup: BeautifulSoup) -> Optional[str]:
-    """Extract the webpage meta description."""
-    meta = soup.find("meta", attrs={"name": "description"})
-    if meta and meta.get("content"):
-        return meta["content"].strip()
-    return None
-
-
-def _extract_language(soup: BeautifulSoup) -> Optional[str]:
-    """Extract the HTML language attribute."""
-    html = soup.find("html")
-    if html and html.get("lang"):
-        return html["lang"].strip()
-    return None
-
-
-def _extract_raw_text(soup: BeautifulSoup) -> str:
-    """
-    Extract raw textual content from the webpage.
-
-    This function intentionally does minimal processing.
-    Cleaning such as navigation removal, whitespace normalization,
-    and boilerplate removal happens later in cleaning.py.
-    """
-    for tag in soup.find_all(["script", "style", "noscript"]):
+def _build_document(item):
+    path = item.get("ItemDefaultUrl") or item.get("UrlName")
+    if not path or not isinstance(item.get("Content"), str):
+        raise ValueError("Fact sheet is missing its page URL or Content field.")
+    source = (
+        urljoin("https://www.who.int", path)
+        if path.startswith(("http://", "https://", "/news-room/"))
+        else urljoin(PAGE_ROOT, path.lstrip("/"))
+    )
+    if urlparse(source).hostname != "www.who.int" or not source.startswith(PAGE_ROOT):
+        raise ValueError(f"Unexpected fact-sheet URL: {source}")
+    soup = BeautifulSoup(item["Content"], "html.parser")
+    rights = html_license(soup, source)
+    for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
+    # Retain table row relationships instead of flattening cells onto separate lines.
+    for table in soup.find_all("table"):
+        rows = [
+            " | ".join(
+                cell.get_text(" ", strip=True) for cell in row.find_all(["td", "th"])
+            )
+            for row in table.find_all("tr")
+        ]
+        table.replace_with("\n[TABLE]\n" + "\n".join(rows) + "\n[/TABLE]\n")
+    return Document(
+        page_content=soup.get_text("\n", strip=True),
+        metadata={
+            "document_id": hashlib.sha256(source.encode()).hexdigest()[:16],
+            "source": source,
+            "source_type": "web",
+            "source_name": "WHO Fact Sheets",
+            "title": item.get("Title"),
+            "description": item.get("MetaDescription") or item.get("Summary"),
+            "language": "en",
+            "published_date": _date(item),
+            "page_number": None,
+            "n_pages": None,
+            "content_origin": "api",
+            **rights,
+        },
+    )
 
-    main = soup.find("main")
-    if main:
-        return main.get_text("\n", strip=False)
 
-    return soup.get_text("\n", strip=False)
-
-def save_manifest(docs: list[Document], manifest_path: str) -> None:
-    """Save document metadata to a JSON manifest."""
-    manifest = [doc.metadata for doc in docs]
+def save_manifest(docs, manifest_path):
+    """Write a compact source inventory; full metadata stays on Documents."""
+    entries = [
+        {
+            "title": d.metadata.get("title"),
+            "item_url": d.metadata["source"],
+            "pdf_url": None,
+            "published_date": d.metadata.get("published_date"),
+            "description": d.metadata.get("description"),
+            "language": d.metadata.get("language"),
+            "local_path": None,
+            "license": d.metadata.get("license"),
+        }
+        for d in docs
+    ]
     path = Path(manifest_path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Manifest written to {path}")
+    temporary = path.with_suffix(".tmp.json")
+    temporary.write_text(
+        json.dumps(entries, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    temporary.replace(path)
 
-def _build_document(
-    url: str,
-    soup: BeautifulSoup,
-    source_name: str,
-    license: str,
-) -> Document:
-    """Build a normalized LangChain Document."""
-    metadata = {
-        "document_id":    _make_document_id(url),
-        "source":         url,
-        "source_type":    "web",
-        "source_name":    source_name,
-        "title":          _extract_title(soup),
-        "description":    _extract_description(soup),
-        "language":       _extract_language(soup),
-        "published_date": _extract_published_date(soup),
-        "license":        license,
-        "page_number":    None,
-        "n_pages":        None,
-    }
-    return Document(page_content=_extract_raw_text(soup), metadata=metadata)
+
+def _request_batch(session, params, read_timeout, max_attempts):
+    for attempt in range(1, max_attempts + 1):
+        print(
+            f"Fetching WHO API offset {params['$skip']} ({params['$top']} records), attempt {attempt}/{max_attempts}...",
+            flush=True,
+        )
+        try:
+            response = session.get(API_URL, params=params, timeout=(10, read_timeout))
+            response.raise_for_status()
+            return response
+        except (requests.Timeout, requests.ConnectionError) as exc:
+            if attempt == max_attempts:
+                raise requests.Timeout(
+                    f"WHO API failed at offset {params['$skip']} after {max_attempts} attempts. "
+                    "Try again later or use batch_size=1. The existing manifest was not replaced."
+                ) from exc
+            time.sleep(min(2**attempt, 8))
+
+
+def load_who_fact_sheets_api(
+    num_pages=None,
+    manifest_path="data/who/manifest_web.json",
+    headers=None,
+    *,
+    batch_size=5,
+    read_timeout=60,
+    max_attempts=3,
+):
+    """Fetch English records in stable URL order. None loads all; zero loads none."""
+    if num_pages is not None and num_pages < 0:
+        raise ValueError("num_pages must be nonnegative or None.")
+    if batch_size < 1 or read_timeout <= 0 or max_attempts < 1:
+        raise ValueError("batch_size, read_timeout and max_attempts must be positive.")
+    docs, seen = [], set()
+    offset = 0
+    with requests.Session() as session:
+        session.headers.update({**DEFAULT_HEADERS, **(headers or {})})
+        while num_pages is None or len(docs) < num_pages:
+            count = (
+                min(batch_size, num_pages - len(docs))
+                if num_pages is not None
+                else batch_size
+            )
+            response = _request_batch(
+                session,
+                {
+                    "$top": count,
+                    "$skip": offset,
+                    "$orderby": "UrlName",
+                    "sf_culture": "en",
+                },
+                read_timeout,
+                max_attempts,
+            )
+            payload = response.json()
+            items = (
+                payload
+                if isinstance(payload, list)
+                else payload.get("value")
+                if isinstance(payload, dict)
+                else None
+            )
+            if not isinstance(items, list):
+                raise ValueError(
+                    "Unexpected WHO API response: expected records in 'value'."
+                )
+            if not items:
+                break
+            new_count = 0
+            for item in items:
+                doc = _build_document(item)
+                source = doc.metadata["source"]
+                if source in seen:
+                    continue
+                seen.add(source)
+                new_count += 1
+                if doc.page_content.strip():
+                    docs.append(doc)
+                if num_pages is not None and len(docs) >= num_pages:
+                    break
+            if not new_count:
+                raise ValueError(
+                    "WHO API repeated records; pagination may not be supported."
+                )
+            offset += len(items)
+            if num_pages is None or len(docs) < num_pages:
+                time.sleep(1)
+    if manifest_path:
+        save_manifest(docs, manifest_path)
+    print(f"Loaded {len(docs)} WHO fact sheets via API.")
+    return docs
 
 
 def load_who_fact_sheets(
-    source_url: str = "https://www.who.int/news-room/fact-sheets",
-    target_prefix: str = "https://www.who.int/news-room/fact-sheets/detail/",
-    headers: Optional[dict] = None,
-    manifest_path: Optional[str] = "data/who/manifest_web.json",
-    num_pages: Optional[int] = None,
-    license: str = WHO_LICENSE,
-) -> list[Document]:
-    """
-    Load WHO fact sheets into LangChain Documents.
-
-    Each webpage becomes one Document.
-    No text cleaning or chunking is performed here.
-    """
-    headers = headers or DEFAULT_HEADERS
-
-    print(f"Fetching WHO fact-sheet index: {source_url}")
-    response = requests.get(source_url, headers=headers, timeout=30)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    # --- Find fact-sheet URLs ---
-    urls = set()
-    for anchor in soup.find_all("a", href=True):
-        full_url = urljoin(source_url, anchor["href"])
-        if full_url.startswith(target_prefix):
-            urls.add(full_url)
-
-    urls_to_load = sorted(urls)
-    print(f"Found {len(urls_to_load)} fact-sheet URLs.")
-
-    # --- Optional sampling for development ---
-    if num_pages is not None and num_pages > 0:
-        sample_size = min(num_pages, len(urls_to_load))
-        # # uncomment the below for random sampling
-        # urls_to_load = random.sample(urls_to_load, sample_size)
-        urls_to_load = urls_to_load[:num_pages]
-
-    print(f"Loading {len(urls_to_load)} WHO fact sheets.")
-
-    # --- Load pages ---
+    num_pages=None,
+    manifest_path="data/who/manifest_web.json",
+    headers=None,
+    *,
+    urls=None,
+):
+    """Load HTML pages; pass fixed URLs for a reproducible evaluation corpus."""
+    if num_pages is not None and num_pages < 0:
+        raise ValueError("num_pages must be nonnegative or None.")
     docs = []
-    for index, url in enumerate(urls_to_load, start=1):
-        print(f"[{index}/{len(urls_to_load)}] {url}")
-        try:
-            response = requests.get(url, headers=headers, timeout=30)
+    with requests.Session() as session:
+        session.headers.update(
+            {**DEFAULT_HEADERS, "Accept": "text/html", **(headers or {})}
+        )
+        if urls is None:
+            index_url = "https://www.who.int/news-room/fact-sheets"
+            response = session.get(index_url, timeout=(10, 30))
             response.raise_for_status()
             soup = BeautifulSoup(response.text, "html.parser")
-            doc = _build_document(url=url, soup=soup, source_name="WHO Fact Sheets", license=license)
-
-            if not doc.page_content.strip():
-                print("  ! Empty page. Skipping.")
-                continue
-
-            docs.append(doc)
-
-        except requests.RequestException as e:
-            print(f"  ! Request failed: {e}")
-        except Exception as e:
-            print(f"  ! Failed to process: {e}")
-
-        if index < len(urls_to_load):
-            time.sleep(REQUEST_DELAY_SECONDS)
-
-    print(f"Successfully loaded {len(docs)} documents.")
-
+            urls = sorted(
+                {
+                    urljoin(index_url, a["href"])
+                    for a in soup.find_all("a", href=True)
+                    if urljoin(index_url, a["href"]).startswith(PAGE_ROOT)
+                }
+            )
+            if not urls:
+                raise ValueError("No fact-sheet links found on WHO's index page.")
+        else:
+            urls = list(dict.fromkeys(urls))
+        if num_pages is not None:
+            urls = urls[:num_pages]
+        for i, url in enumerate(urls, 1):
+            if not url.startswith(PAGE_ROOT):
+                raise ValueError(f"Unexpected fact-sheet URL: {url}")
+            print(f"Loading WHO HTML {i}/{len(urls)}: {url}", flush=True)
+            response = session.get(url, timeout=(10, 30))
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, "html.parser")
+            rights = html_license(soup, url)
+            title = soup.find("h1") or soup.find("title")
+            description = soup.find("meta", attrs={"name": "description"})
+            date = soup.find("time")
+            raw_date = (
+                date.get("datetime") or date.get_text(" ", strip=True) if date else None
+            )
+            if not raw_date:
+                date = soup.find(class_=re.compile("date", re.I))
+                raw_date = date.get_text(" ", strip=True) if date else None
+            language = soup.find("html")
+            metadata = {
+                "document_id": hashlib.sha256(url.encode()).hexdigest()[:16],
+                "source": url,
+                "source_type": "web",
+                "source_name": "WHO Fact Sheets",
+                "title": title.get_text(" ", strip=True) if title else None,
+                "description": description.get("content") if description else None,
+                "published_date": _date({"FormatedDate": raw_date}),
+                "language": language.get("lang") if language else None,
+                "page_number": None,
+                "n_pages": None,
+                "content_origin": "html",
+                **rights,
+            }
+            for tag in soup(["script", "style", "noscript"]):
+                tag.decompose()
+            content = (soup.find("main") or soup).get_text("\n", strip=False)
+            if not content.strip():
+                raise ValueError(f"Empty fact-sheet content: {url}")
+            docs.append(Document(page_content=content, metadata=metadata))
+            if i < len(urls):
+                time.sleep(1)
     if manifest_path:
         save_manifest(docs, manifest_path)
-
+    print(f"Loaded {len(docs)} WHO fact sheets via HTML.")
     return docs
-

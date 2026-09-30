@@ -1,5 +1,16 @@
 """Central configuration for models and chunking runs."""
+
 import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parents[1] / ".env")
+
+INDEX_PATH = os.environ.get("INDEX_PATH", "data/vectorstore")
+LLM_MODEL = os.environ.get("LLM_MODEL", "gemini-2.5-flash")
+TOP_K = 5
+DEFAULT_CHUNKER_RUN = "pubmedbert_section_450"
 
 EMBEDDING_MODEL_NAME = os.environ.get(
     "EMBEDDING_MODEL_NAME",
@@ -8,7 +19,7 @@ EMBEDDING_MODEL_NAME = os.environ.get(
 # "NeuML/pubmedbert-base-embeddings"
 
 # Full set of (model, chunker, chunk_size, chunk_overlap) combinations to
-# evaluate. 
+# evaluate.
 CHUNKER_RUNS = [
     {
         "name": "minilm_section_220",

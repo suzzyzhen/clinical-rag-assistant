@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+data/vectorstore/
+scripts/validate_eval_sources.py
+notebooks/web_docs_info.txt

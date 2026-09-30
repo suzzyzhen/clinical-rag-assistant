@@ -134,7 +134,7 @@ def clean_documents(
 
         cleaned_text = clean_text(
             doc.page_content,
-            is_web=is_web,
+            is_web=is_web and doc.metadata.get("content_origin") != "api",
             boilerplate=None if is_web else boilerplate_by_doc.get(doc_id, set()),
         )
 

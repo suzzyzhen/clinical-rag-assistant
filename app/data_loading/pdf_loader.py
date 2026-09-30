@@ -7,7 +7,7 @@ import pdfplumber
 from langchain_core.documents import Document
 import json
 
-WHO_LICENSE = "CC BY-NC-SA 3.0 IGO"
+from app.data_loading.licensing import pdf_license
 
 
 def _make_document_id(source: str) -> str:
@@ -75,9 +75,10 @@ def load_pdf(
     source_name: str,
     title: Optional[str] = None,
     url: Optional[str] = None,
-    license: str = WHO_LICENSE,
+    license: Optional[str] = None,
     manifest_entry: Optional[dict] = None, 
 ) -> list[Document]:
+    manifest_entry = manifest_entry or {}
     pdf_path_obj = Path(pdf_path)
     # source = manifest_entry.get("source") or url or str(pdf_path_obj)
     document_id = _make_document_id(str(pdf_path_obj))
@@ -86,6 +87,13 @@ def load_pdf(
     with fitz.open(pdf_path) as fitz_doc, pdfplumber.open(pdf_path) as plumber_doc:
         # pdf_metadata = fitz_doc.metadata or {}
         n_pages = len(fitz_doc)
+        if manifest_entry.get("license_evidence") and manifest_entry.get("license_detection") == "explicit":
+            rights = {k: v for k, v in manifest_entry.items() if k.startswith("license")}
+        else:
+            rights = pdf_license(fitz_doc, manifest_entry.get("pdf_url") or url or str(pdf_path_obj))
+        if license is not None:
+            rights["license_override_requested"] = license
+        manifest_entry.update(rights)
 
         for page_num, (fitz_page, plumber_page) in enumerate(
             zip(fitz_doc, plumber_doc.pages), start=1
@@ -105,7 +113,7 @@ def load_pdf(
                     "description":    manifest_entry.get("description"),
                     "language":       manifest_entry.get("language"),
                     "published_date": manifest_entry.get("published_date"),
-                    "license":        manifest_entry.get("license") or license,
+                    **rights,
                     "page_number":    page_num,
                     "n_pages":        n_pages,
                     # "pdf_url":        manifest_entry.get("pdf_url"),
@@ -118,7 +126,7 @@ def load_pdf(
 def load_pdfs_from_folder(
     folder: str,
     source_name: str,
-    license: str = WHO_LICENSE,
+    license: Optional[str] = None,
     manifest_path: Optional[str] = None,
 ) -> list[Document]:
     pdf_files = sorted(Path(folder).glob("*.pdf"))
@@ -153,5 +161,7 @@ def load_pdfs_from_folder(
         except Exception as e:
             print(f"  ! Failed to load {pdf_path.name}: {e}")
 
+    if manifest_path and manifest_index:
+        Path(manifest_path).write_text(json.dumps(entries, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Loaded {len(docs)} page documents from {len(pdf_files)} PDFs.")
     return docs
